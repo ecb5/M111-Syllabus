@@ -1,0 +1,364 @@
+<section>
+  <title> Concavity  </title>
+<p></p>
+  <exercises>
+  <exercisegroup cols="2">
+    <introduction>
+      <p>
+        Identify all intervals where the given curve is concave up,
+        and where it is concave down. Check your work using the Desmos
+        interface below <em>after</em> you have solved each problem.
+      </p>
+      <figure>
+        <interactive desmos="voxkfcf7zj"
+                     width="150%" aspect="2:1" />
+      </figure>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^3-2x^2+x+1</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(2/3,\infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(-\infty, 2/3)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y= 3x^4-4x^3+6</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty, 0)\cup(2/3,\infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(0,2/3)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=2x^6-6x^4</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty, -\sqrt{6/5})\cup(\sqrt{6/5},\infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(-\sqrt{6/5},\sqrt{6/5}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=(x^2-1)^2</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty, -1/\sqrt{3})\cup(1/\sqrt{3},
+          \infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(-1/\sqrt{3},1/\sqrt{3})</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt[5]{x}-1</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty, 0)</m>
+        </p>
+        <p>
+          Concave down: <m>(0, \infty)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^2-\frac{27}{x^2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty, -3)\cup(3,\infty) </m>
+        </p>
+        <p>
+          Concave down: <m>(-3,3)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac{x}{x^2+1}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\sqrt{3},0)\cup(\sqrt{3},\infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(-\infty, -\sqrt{3})\cup(0,\sqrt{3})</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt[3]{x^2}(3x+10)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(2/3, \infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(-\infty, 0)\cup(0, 2/3)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=8x^{\frac13}+x^{\frac43}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Concave up: <m>(-\infty,0)\cup(4,\infty)</m>
+        </p>
+        <p>
+          Concave down: <m>(0,4)</m>
+        </p>
+      </solution>
+    </exercise>
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+    <!-- <exercise> -->
+    <!--           <m>\displaystyle</m> -->
+    <!--           <p> -->
+    <!--             <solution> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--               <p> -->
+
+    <!--               </p> -->
+    <!--             </solution> -->
+    <!--           </p> -->
+    <!-- </exercise> -->
+  </exercisegroup>
+  <exercisegroup cols="2">
+    <introduction>
+      <p>
+        For each of the following sketch the graph of a continuous function,
+        <m>y=f(x)</m>
+        which satisfies all of the stated conditions.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <md alignment='align'>
+            <mrow>f(0)=1;f(2)=3</mrow> 
+            <mrow>f^\prime(0)=f^\prime(2)=0</mrow>
+            <mrow>f^\prime(x)\lt 0 \text{ if } \abs{x-1}\gt 1</mrow>
+            <mrow>f^\prime(x)\gt 0 \text{ if } \abs{x-1}\lt 1</mrow>
+            <mrow>f^{\prime\prime}(x)\gt 0 \text{ if } x\lt 1</mrow>
+            <mrow>f^{\prime\prime}(x)\lt 0 \text{ if } x\gt 1</mrow>
+          </md>
+        </p>
+      </statement>
+      <!-- <solution> -->
+      
+      <!-- </solution> -->
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <md alignment='align'>
+            <mrow>f(0)=4; f(2)=2; f(5)=6</mrow> 
+            <mrow>f^\prime(0)=f^\prime(2)=0</mrow> 
+            <mrow>f^\prime(x)\gt 0 \text{ if } \abs{x-1}\gt 1</mrow>
+            <mrow>f^\prime(x)\lt 0 \text{ if } \abs{x-1}\lt 1</mrow>
+            <mrow>f^{\prime\prime}(x)\lt 0 \text{ if } x\lt 0 \text{ or if }
+            \abs{x-4}\lt 1 \text{ or if } x\gt 5</mrow>
+          </md>
+        </p>
+      </statement>
+      <!-- <solution> -->
+      
+      <!-- </solution> -->
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <md alignment='align'>
+            <mrow>f(0)=2; f(2)=f(-2)=1</mrow> 
+            <mrow>f^\prime(0)=0</mrow> 
+            <mrow>f^\prime(x)\gt0 \text{ if } x\lt0</mrow>
+            <mrow>f^\prime(x)\lt0 \text{ if } x\gt0</mrow>
+            <mrow>f^{\prime\prime}(x)\lt0 \text{ if }\abs{x}\lt2</mrow>
+            <mrow>f^{\prime\prime}(x)\gt0 \text{ if }\abs{x}\gt2</mrow>
+          </md>
+        </p>
+      </statement>
+      <!-- <solution> -->
+      
+      <!-- </solution> -->
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <md alignment="align">
+            <mrow>f(1)=4</mrow> 
+            <mrow>f^\prime(x)\gt 0 \text{ if } x\lt1</mrow> 
+            <mrow>f^\prime(x)\lt 0 \text{ if } x\gt1</mrow>
+            <mrow>f^{\prime\prime}(x)\gt0 \text{ for all } x\neq1</mrow>
+          </md>
+        </p>
+      </statement><!-- <solution> -->
+      
+      <!-- </solution> -->
+    </exercise>
+
+  </exercisegroup>
+  </exercises>
+</section>
+<!-- <exercisegroup cols="6"> -->
+<!-- <introduction> -->
+<!--       <p> -->
+<!--         Find the coordinates of the absolute maximum (global) and the -->
+<!--         absolute (global) minimum of each function in the indicated -->
+<!--         interval. -->
+<!--       </p> -->
+<!-- </introduction> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=\sqrt{x}\cdot\sqrt[3]{1-x},\ \ [0,1]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=\sqrt{x^3}\cdot\sqrt[3]{1-x},\ \ [0,1]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=\sqrt{x}\cdot\sqrt{(1-x)^2},\ \ [0,1]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=x^a(1-x)^b, \ \ [0,1]</m>  -->
+<!--           <p>(Assume <m>a</m> and <m>b</m> are positive.)</p> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=x^3-2x^2+x\ \ [-1,1]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=x^4-2x^3+x^2\ \ [-1/2,2]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=-x^4+3x^3-3x^2+x,\ \ [0,2]</m> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!--           <m>\displaystyle y=x^4-3x^3+3x^2-x,\ \ [0,2]</m> -->
+<!-- </exercise> -->
+<!-- </exercisegroup> -->
+<!-- </exercises> -->
+<!-- </worksheet> -->
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

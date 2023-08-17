@@ -1,0 +1,21 @@
+<section><title>Semester Schedule</title>
+<table xml:id="SemesterSchedule">
+
+<title>Semester Schedule</title>
+
+<tabular break="yes" top="major">
+  <col width="20%"/>
+  <col width="80%"/>
+  <row>
+    <cell halign="left">8/28/23</cell>
+    <cell halign="left">
+<p>
+Before class begins, read the Preface of the textbook, and all of Chapter 1. Do any of the problems that you do not understand and come to class prepared to ask about anything you don't understand.
+</p>
+</cell>
+  </row>
+  
+</tabular>
+</table>
+
+</section>

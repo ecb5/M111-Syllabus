@@ -1,0 +1,274 @@
+<worksheet>
+  <title> Basic Differentiation </title>
+
+<exercisegroup cols="6">
+<title>
+Constant Functions
+</title>
+<p>
+  Compute <m>\dfdx{y}{x}</m> for each of the following using the
+  differentiation rules given above:
+</p>
+<exercise>
+<p>  <m>y=1</m></p>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+        <m>
+          y=\pi
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+
+        <m>
+          y=\pi^3
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+        <m>
+          y=\frac{\sqrt{2}}{\pi}
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+        <m>
+          y=\sqrt{2}\pi
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+        <m>
+          y=\frac{\pi^{3/2}}{1-\pi}
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+<exercise>
+        <m>
+          y=2,000,000,000
+        </m>
+<solution>
+<p>
+<m>\dfdx{y}{x}=0</m>
+</p>
+</solution>
+</exercise>
+</exercisegroup>
+
+<exercisegroup>
+  <p>
+    Compute <m>\dfdx{y}{x}</m> for each of the following:
+  </p>
+  <exercise>
+    <p>
+      <m> y=x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=2x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=20x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=0.0002x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=\pi x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=\sqrt{2}x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=(\pi+\sqrt{2})x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=\pi x+\sqrt{2}x</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <p>
+      <m> y=\frac{(\pi+\sqrt{2})x}{x}</m>
+    </p>
+    <solution>
+      <p>
+        <m>\dfdx{y}{x}=</m>
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+      <p>
+        <m> y=\frac{(1-x)x^4}{x^3-x^4}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=</m>
+        </p>
+      </solution>
+    </exercise>
+</exercisegroup>
+<!--   <exercise> -->
+<!--     Compute <m>\dfdx{y}{x}</m> for each of the following using the -->
+<!--     differentiation rules given above: -->
+<!--     <ol cols="2"> -->
+<!--       <li> -->
+<!--         <m> y=x^2</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y=x^3</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y=x^2+x^3</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^2+x^3 + x^4</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^2+x^3 + x^4+x^5</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^2-x^3 + x^4-x^5</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= 2x^2+3x^3</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= 5(2x^2+3x^3)</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^{-2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^{-3}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^{-1}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac1x</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac{1}{x^5}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac1x+\frac{1}{x^2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac3x+\frac{7}{x^2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac3x+\frac{-7}{x^2}-\frac{5}{x^3}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^{3/2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= x^{3/2}+x^{-3/2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac{3x^5-\frac72x^4-\pi x^3}{3x^{1/2}}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \frac{2x^5-7x^{4/3} + x^{-1}- x^{-3}}{x^2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \sqrt{x^3}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= \sqrt[3]{x^2}</m> -->
+<!--       </li> -->
+<!--       <li> -->
+<!--         <m> y= 8\sqrt{x^3} - 6\sqrt[3]{x^2}</m> -->
+<!--       </li> -->
+<!--     </ol> -->
+<!--   </exercise> -->
+
+
+<!--   </exercisegroup> -->
+<!-- </worksheet> -->
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

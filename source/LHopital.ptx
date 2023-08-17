@@ -1,0 +1,436 @@
+<section>
+  <title> L'Hopital's Rule  </title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="3">
+      <introduction>
+        <p>
+          Use L'Hopital's Rule to compute each of the following limits:
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{\cos(x) -1}{x}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{\cos(x) -1}{x}}= 0</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{x}{\cos(x)+1}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{x}{\cos(x)+1}}= =</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{\sin(\alpha x)}{\sin(\beta x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{\sin(\alpha x)}{\sin(\beta x)}}= \dfrac\alpha\beta</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{\tan(\alpha x)}{\tan(\beta x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{\tan(\alpha x)}{\tan(\beta x)}}= \dfrac\alpha\beta</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{e^x-1-x}{x^2}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{e^x-1-x}{x^2}}= \dfrac12</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{\frac{x}{\ln(1+2e^x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{\infty}{\frac{x}{\ln(1+2e^x)}}=1 </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{\cos(mx)-\cos(nx)}{x^2}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{\cos(mx)-\cos(nx)}{x^2}}=
+            \dfrac{n^2-m^2}{2}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{1}{\frac{x^a-ax+a-1}{(x-1)^2}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{1}{\frac{x^a-ax+a-1}{(x-1)^2}}=          \frac{a(a-1)}{2}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{1-e^{-2x}}{\sec(x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\limit{x}{0}{\frac{1-e^{-2x}}{\sec(x)}}= 2</m>
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{1-e^{-2x}}{\sin(x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{\frac{1-e^{-2x}}{\sin(x)}}=2</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{(1-e^{-2x})\csc(x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{(1-e^{-2x})\csc(x)}=2</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{x\ln(x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{x\ln(x)}=-\infty</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\frac{(\ln(x))}{\frac1x}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{\frac{(\ln(x))}{\frac1x}}=-\infty</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\cot(2x)\sin(6x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{\cot(2x)\sin(6x)}=3</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{x\tan(1/x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{\infty}{x\tan(1/x)}=1</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\sin(x)\ln(x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \limit{x}{0}{\sin(x)\ln(x)}=0</m>
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+    <exercisegroup><title>Polynomials and Exponentials</title>
+<introduction>
+<p>
+
+</p>
+
+</introduction>
+    <exercise>
+      <introduction>
+        <p>
+          Show that each of the  following is a true statement:
+        </p>
+      </introduction>
+      <task>
+        <p>
+          <m>\limit{x}{\infty}{\frac{x}{e^x}=0}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\limit{x}{\infty}{\frac{x^2}{e^x}=0}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\limit{x}{\infty}{\frac{x^3}{e^x}=0}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\limit{x}{\infty}{\frac{x^n}{e^x}=0}</m>
+          (Assume <m>n</m> is a positive integer.)
+        </p>
+      </task>
+    </exercise>
+    <exercise>
+      <p>
+        Now suppose that <m>P(x)</m> any polynomial and find <m>\limit{x}{\infty}{\frac{P(x)}{e^x}}</m>
+      </p>
+    </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+<introduction>
+<p>
+
+</p>
+
+</introduction>
+      <exercise>
+        <statement>
+          <p>
+            Show that: <m>\limit{x}{\infty}{\frac{x^{1/2}}{e^x}=0}</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Show that: <m>\limit{x}{\infty}{\frac{x^{1/3}}{e^x}=0}</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Show that: <m>\limit{x}{\infty}{\frac{x^{1/n}}{e^x}=0}</m>
+            Assume <m>n</m> is a positive integer.
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Show that: <m>\limit{x}{\infty}{\frac{x^{m/n}}{e^x}=0}</m>
+            Assume <m>n</m> and <m>m</m> are positive integers.
+          </p>
+        </statement>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="3">
+      <introduction>
+        <p>
+          Compute each of the following limits by any method.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{\left(1+\frac{1}{x}\right)^x}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{\left(1+\frac{a}{x}\right)^x}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{\left(1+\frac{a}{x}\right)^{bx}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\left(1+x\right)^{\frac{1 }{x}}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\left(1+ax\right)^{\frac{b }{x}}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{x^x}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{(1-2x)^{1/x}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{x^\frac{1}{\ln(x)}}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{1}{\left(\frac{1}{\ln(x)}-\frac{1}{x-1}\right)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{0}{\csc(x)-\cot(x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\limit{x}{\infty}{x-\ln(x)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> </m>
+          </p>
+        </answer>
+      </exercise>
+
+    </exercisegroup>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

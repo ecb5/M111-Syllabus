@@ -1,0 +1,81 @@
+<worksheet>
+  <title> Derivatives, Derivatives, Derivatives  </title>
+  <exercisegroup>
+    <exercise>
+      <p>
+        Compute <m>\dfdx{y}{x}</m> for each of the following:
+      </p>
+      <ol cols="2" marker="(a)">
+        <li>
+          <m>y=3x+2</m>
+        </li>
+        <li>
+          <m>y=3x^2+2x</m>
+        </li>
+        <li>
+          <m>y=\frac{1}{x}</m>
+        </li>
+        <li>
+          <m>y=\frac{x^2+x}{x-1}</m>
+        </li>
+        <li>
+          <m>y=\frac{x^2+x}{x^2+x+1}</m>
+        </li>
+        <li>
+          <m>y=\frac{(x+1)(x+2)}{(x+3)(x+4)}</m>
+        </li>
+        <li>
+          <m>y=e^x</m>
+        </li>
+        <li>
+          <m>y=e^2x</m>
+        </li>
+        <li>
+          <m>y=e^3x</m>
+        </li>
+        <li>
+          <m>y=e^4x</m>
+        </li>
+        <li>
+          <m>y=e^{x+a}</m> where <m>a</m> is constant.
+        </li>
+        <li>
+          <m>y=e^{2x+a}</m> where <m>a</m> is constant.
+        </li>
+        <li>
+          <m>y=e^x(2x^4+9x^3-2x^2+17x-27)</m>
+        </li>
+        <li>
+          <m>y=e^x\sqrt{2x^4+9x^3-2x^2+17x-27}</m>
+        </li>
+        <li>
+          <m>y=e^x\sqrt[3]{2x^4+9x^3-2x^2+17x-27}</m>
+        </li>
+      </ol>
+    </exercise>
+
+
+
+    <exercise>
+      <ol marker="(a)">
+        <li>
+          Compute the derivative of
+          <md>
+            <mrow>        f(x)=\frac{7\sqrt{x+1}(x^2+x+1)}{10e^{2x}}</mrow>
+          </md>
+        </li>
+        <li>
+          Find an equation of the tangent line of <m>f(x)</m> at <m>x=0.</m>
+        </li>
+      </ol>
+    </exercise>
+  </exercisegroup>
+</worksheet>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

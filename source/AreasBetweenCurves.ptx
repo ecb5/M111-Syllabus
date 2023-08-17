@@ -1,0 +1,54 @@
+<worksheet>
+  <title> Regions Between Curves  </title>
+  <exercisegroup cols="6">
+    <title> Regions between Curves</title>
+    <introduction>
+      Find the areas of the regions enclosed by the graphs of the given
+      equations:
+    </introduction>
+    <exercise>
+      <md>
+        <mrow> y \amp = 4x+4</mrow>
+        <mrow> y \amp = 6x+6</mrow>
+        <mrow> x \amp = 4</mrow>
+      </md>
+    </exercise>
+    <exercise>
+      <md>
+        <mrow> y \amp = \cos(x)</mrow>
+        <mrow> y \amp = \sin(x)</mrow>
+        <mrow> x \amp = \frac{\pi}{4}</mrow>
+        <mrow> x \amp = \frac{5\pi}{4}</mrow>
+      </md>
+    </exercise>
+    <exercise>
+      <md>
+        <mrow> y \amp = e^x</mrow>
+        <mrow> y \amp = e^{2x}</mrow>
+        <mrow> x \amp = \ln(4)</mrow>
+      </md>
+    </exercise>
+    <exercise>
+      <md>
+        <mrow> y \amp = 4x+4</mrow>
+        <mrow> y \amp = 6x+6</mrow>
+        <mrow> x \amp = 4</mrow>
+      </md>
+    </exercise>
+    <exercise>
+      <md>
+        <mrow> y \amp = 4x+4</mrow>
+        <mrow> y \amp = 6x+6</mrow>
+        <mrow> x \amp = 4</mrow>
+      </md>
+    </exercise>
+
+  </exercisegroup>
+</worksheet>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- End: -->
+
+

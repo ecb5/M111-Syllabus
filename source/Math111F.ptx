@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  
+  <docinfo>
+    <macros>
+    </macros>
+
+    <latex-image-preamble>
+      <!-- \usepackage{amsmath} -->
+      <!-- \usepackage{multicol} -->
+      <!-- \usepackage{enumitem} -->
+      <!-- \usepackage{lipsum} -->
+      
+      <!-- <!-\- \include{bltmac} -\-> -->
+      <!-- \usepackage{amsmath} -->
+      <!-- \usepackage{multicol} -->
+      <!-- \usepackage{enumitem} -->
+      <!-- \usepackage{lipsum} -->
+    </latex-image-preamble>
+    
+  </docinfo>
+  
+  <article xml:id="Math111F">
+    <title>Math 111F, Fall 2023</title>
+    <!-- <frontmatter> -->
+    <!-- </frontmatter> -->
+    <xi:include href="./ClassMeetInfo.ptx" />
+    <xi:include href="./Succeed.ptx" />
+    <xi:include href="./ICEs.ptx" />
+    <xi:include href="./WW.ptx" />
+    <xi:include href="./ExamsQuizzes.ptx" />
+    <xi:include href="./TechUse.ptx"  />
+    <xi:include href="./Grading.ptx"  />
+    <xi:include href="./ContactNew.ptx"  />
+    <xi:include href="./SemesterSchedule.ptx"  />
+    <!-- <xi:include href="./Contact.ptx"  /> -->
+    <!-- <xi:include href="./TextHW.ptx"  /> -->
+    <!-- <xi:include href="./OtherCrap.ptx"  /> -->
+
+ 
+</article>
+</pretext>
+
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+

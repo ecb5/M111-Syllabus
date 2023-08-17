@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  
+  <docinfo>
+    <macros>
+      \def\dx#1{\thinspace\text{d}#1}
+      \def\abs#1{\left|#1\right|}
+      \def\dfdx#1#2{\frac{\text{d}{#1}}{\text{d}{#2}}} 
+      \def\dfdxn#1#2#3{\frac{\text{d}^{#3}{#1}}{\text{d}{#2}^{#3}}} 
+      \def\inverse#1{#1^{-1}}
+      \def\limit#1#2#3{{\displaystyle\lim_{#1\rightarrow #2}#3}}
+    </macros>
+
+    <latex-image-preamble>
+      \usepackage{amsmath}
+      \usepackage{multicol}
+      \usepackage{enumitem}
+      \usepackage{lipsum}
+    </latex-image-preamble>
+    
+  </docinfo>
+
+  <article xml:id="Bugs">
+    <title>In Class Exercises</title>
+    <frontmatter>
+    </frontmatter>
+
+<section>  <title> Basic Differentiation</title>
+<worksheet>
+  <title></title>
+  
+  <exercise><title>Find the Pattern</title>
+  <introduction>
+    <p>
+      Show that <m>\dfdx{y}{x}</m> is as given for each of the following:
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        <m>y=x+1</m>,
+      </p>
+      <p>
+        <m>\dfdx{y}{x}=1</m>
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        <m>y=(x+1)(x+2)(x+3)(x+4)</m>
+      </p>
+      <p>
+        <m>
+          \begin{split}
+          \dfdx{y}{x}={}(x+1)(x+2)(x+3) + (x+1)(x+2)(x+4)+{}\amp (x+1)(x+3)(x+4)\\\amp + (x+2)(x+3)(x+4) 
+          \end{split}
+        </m>
+      </p>
+    </statement>
+  </task>
+</exercise>
+</worksheet>
+</section>
+  </article>
+</pretext>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+

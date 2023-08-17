@@ -1,0 +1,521 @@
+<section>
+  <title> Optimization  </title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="2">
+      <title>
+        Maximal Products
+      </title>
+      <exercise>
+        <statement>
+          <p>
+            Find two positive numbers whose sum is 10, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The two numbers are both <m>5</m>, so the maximum product is
+            <m>25</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Find two positive numbers whose sum is <m>8</m>, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The two numbers are both <m>4</m>, so the maximum product is
+            <m>16</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 1
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers such that the sum of one of them and twice
+            the other is 10, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            One of the  numbers is <m>5</m>, and the other is <m>\frac52</m> so the maximum product is
+            <m>\frac{25}{4}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 2
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers whose sum is <m>K</m>, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The two numbers are both <m>\frac{K}{2}</m>, so the maximum product is
+            <m>\frac{K^2}{4}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 3
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers such that the sum of one of them and three
+            times 
+            the other is 10, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            One of the  numbers is <m>5</m>, and the other is <m>\frac53</m> so the maximum product is
+            <m>\frac{25}{6}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 4
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers such that the sum of one of them and five
+            times 
+            the other is 10, and whose product is a
+            maximum. What is the maximum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            One of the  numbers is <m>5</m>, and the other is <m>1</m> so the maximum product is
+            <m>5</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers such that the sum of one of them and <m>n</m>
+            times 
+            the other is K, and whose product is a
+            maximum. What is the maximum?
+          </p>
+          <!-- <p> -->
+          <!--   Most people give up on this too soon. Did you? -->
+          <!--   Look back at the last few problems and see if you can detect a -->
+          <!--   pattern. Use this problem to verify the pattern you find. -->
+          <!-- </p> -->
+        </statement>
+        <!-- <solution> -->
+        <!--   <p> -->
+        <!--     One of the  numbers is <m>\frac{K}{5}</m>, and the other is -->
+        <!--     <m>\frac{K}{2n}</m> so the maximum product is -->
+        <!--     <m>\frac{\left(\frac{K}{2}\right)}{n}</m>. -->
+        <!--   </p> -->
+        <!-- </solution> -->
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="2">
+      <title>
+        Minimal Sums
+      </title>
+      <exercise>
+        <statement>
+          <p>
+            Find two positive numbers whose product is <m>10 </m>, 
+vand
+            whose sum is a minimum. What is the minimum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The two numbers are both <m>\sqrt{10}</m>, so the minimum sum is
+            <m>\frac{2}{\sqrt{10}}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 1
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers whose product is <m>M</m>, and whose sum is a
+            minimum. What is the minimum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The two numbers are both <m>\sqrt{M}</m>, so the minimum sum is
+            <m>\frac{2}{\sqrt{M}}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 2
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers whose product is <m>M</m>, and  the sum one
+            number and three times the other  is a
+            minimum. What is the minimum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            One  number is <m>\sqrt{3M}</m>, and the other is
+            <m>\sqrt{\frac{M}{3}}</m> so the minimum sum is
+            <m>4\sqrt{\frac{M}{3}}</m>.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 3
+        </title>
+        <statement>
+          <p>
+            Find two positive numbers whose product is <m>M</m>, and  the sum one
+            number and <m>n</m> times the other  is a
+            minimum. What is the minimum?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Nope. Figure this one out for yourself. There is a pattern in the
+            previous problems.
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+
+
+    <exercisegroup cols="2">
+      <title>
+        Enclosures
+      </title>
+      <introduction>
+        <p>
+          You have <m>500</m> meters of fencing with which to build a pen. 
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            What is the largest area you can enclose with a freestanding rectangular
+            pen?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>250^2/4</m> square feet
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 1
+        </title>
+        <statement>
+          <p>
+            You want to build a large rectangular pen divided into two
+            equally sized sub-pens. What is the largest area you can
+            enclose?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>(250^2/6</m> square feet
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 2
+        </title>
+        <statement>
+          <p>
+            You want to build a large rectangular pen divided into three
+            equally sized sub-pens. What is the largest area you can
+            enclose?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{250^2}{8}</m> square feet
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 3
+        </title>
+        <statement>
+          <p>
+            You want to build a large rectangular pen divided into <m>n</m>
+            equally sized sub-pens. What is the largest area you can
+            enclose?
+
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{250^2}{2(n+1)}</m> square feet. 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <title>
+          Generalization 4
+        </title>
+        <statement>
+          <p>
+            You wish to build a pen using one side of a building in place of
+            one side of your pen. What is the largest area you can enclose this
+            time?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>250^2/2</m> square feet
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+
+    <!--     <!-\- <exercisegroup> -\-> -->
+    <!--       <exercise> -->
+    <!--         <introduction> -->
+    <!-- <p> -->
+    <!--           You have <m>500</m> meters of fencing with which to build a pen.  -->
+    <!-- </p> -->
+    <!--         </introduction> -->
+    <!--         <task> -->
+    <!-- <statement> -->
+    <!-- <p> -->
+    <!--             What is the largest area you can enclose with a -->
+    <!--             freestanding rectangular pen? -->
+    <!-- </p> -->
+    <!-- </statement> -->
+    <!--         </task> -->
+
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- <li> -\-> -->
+    <!--         <!-\- <p> -\-> -->
+    <!--         <!-\- You wish to use one side of a building in place of one side of your -\-> -->
+    <!--         <!-\- pen. What is the largest area you can enclose this time? -\-> -->
+    <!--         <!-\- </p> -\-> -->
+    <!--         <!-\- <image source="Corral1.png" width="65%"> -\-> -->
+    <!--         <!-\- </image> -\-> -->
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- <li> -\-> -->
+    <!--         <!-\- <p> -\-> -->
+    <!--         <!-\- You want to build your pen as seen in the sketch: -\-> -->
+    <!--         <!-\- <image source="Corral3.png" width="65%"> -\-> -->
+    <!--         <!-\- </image> -\-> -->
+    <!--         <!-\- What is the largest area you can enclose this time? -\-> -->
+    <!--         <!-\- </p> -\-> -->
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- <li> -\-> -->
+    <!--         <!-\- <p> -\-> -->
+    <!--         <!-\- You want to build your pen as seen in the sketch: -\-> -->
+    <!--         <!-\- <image source="Corral4.png" width="65%"> -\-> -->
+    <!--         <!-\- </image> -\-> -->
+    <!--         <!-\- What is the largest area you can enclose this time? -\-> -->
+    <!--         <!-\- </p> -\-> -->
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- <li> -\-> -->
+    <!--         <!-\- <p> -\-> -->
+    <!--         <!-\- You want to build your pen as seen in the sketch: -\-> -->
+    <!--         <!-\- <image source="corral5.png" width="65%"> -\-> -->
+    <!--         <!-\- </image> -\-> -->
+    <!--         <!-\- What is the largest area you can enclose this time? -\-> -->
+    <!--         <!-\- </p> -\-> -->
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- <li> -\-> -->
+    <!--         <!-\- <p> -\-> -->
+    <!--         <!-\- You want to build your pen as seen in the sketch: -\-> -->
+    <!--         <!-\- <image source="corral6.png" width="65%"> -\-> -->
+    <!--         <!-\- </image> -\-> -->
+    <!--         <!-\- What is the largest area you can enclose this time? -\-> -->
+    <!--         <!-\- </p> -\-> -->
+    <!--         <!-\- </li> -\-> -->
+    <!--         <!-\- </ol> -\-> -->
+    <!--       </exercise> -->
+    <!--     <!-\- </exercisegroup> -\-> -->
+    
+    <exercisegroup cols="2">
+      <title>
+        Selected Problems
+      </title>
+      <exercise>
+        <statement>
+          <p>
+            A box with a square base and an open top must have a volume of
+            <m>32,000</m> cubic centimeters. Find the dimensions of the box that
+            minimize the amount of material used.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>320,000</m> cubic centimeters
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            A Norman window has the shape of a rectangle surmounted by a
+            semicircle. If the perimeter of the window is <m>30</m> feet, find the
+            dimensions of the window that allow the most light to enter.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <md>
+              <mrow>x\amp =\frac{60}{4+3\pi}</mrow>
+              <mrow>y\amp =15\left(\frac{1+\pi}{4+3\pi}\right)</mrow>
+            </md>
+          </p>
+          <aside><title>Oops!</title>
+          <p>
+            I am not confident of this answer. Please let me know if you think
+            it is wrong.
+          </p>
+          </aside>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            At which points on the curve <m>y=\frac{5}{10+x^2}</m> does the tangent
+            line have the greatest slope?
+          </p>
+        </statement>
+        <!-- <solution> -->
+        <!--   <p> -->
+        <!--     At the points <m>(2, 225)</m> and <m>(-2,-223)</m>. -->
+        <!--   </p> -->
+        <!-- </solution> -->
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            Find the area of the smallest triangle formed by the <m>x</m> and
+            <m>y</m> axes and a line passing through the point <m>(2,1).</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+    <exercise>
+      <introduction>
+        <p>
+          Find the coordinates of the points on the graph of 
+          <m>
+            4x^2+y^2=4
+          </m>
+          which are
+        </p>
+      </introduction>
+      <task>
+        <statement><p>
+          farthest from the point <m>(1,0)</m>.
+        </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\left(-\frac13, \frac{4\sqrt{2}}{3}\right)</m> and <m>\left(-\frac13, -\frac{4\sqrt{2}}{3}\right)</m>
+          </p>
+        </solution>
+      </task>
+      <task>
+        <statement><p>
+          farthest from the point <m>(0,2)</m>.
+        </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\left(0,-2\right)</m>
+          </p>
+        </solution>
+      </task>
+      <task>
+        <statement><p>
+          farthest from the point <m>(2,2)</m>.
+        </p>
+        </statement>
+        <hint>
+          <p>
+            You probably won't be able to get an exact answer. Find an approximation.
+          </p>
+        </hint>
+
+        <solution>
+          <p>
+            The coordinates are approximately, 
+            <m>\left(-0.81, -1.17\right)</m>
+          </p>
+        </solution>
+      </task>
+      <task>
+        <statement>
+          <p>
+            closest to the point <m>(2,2)</m>.
+          </p>
+        </statement>
+          <hint>
+            <p> 
+              You probably won't be able to get an exact answer. Find an approximation.
+            </p>
+          </hint>
+
+        <solution>
+          <p>
+            The coordinates are approximately, 
+            <m>\left(.66, 1.5\right)</m>
+          </p>
+        </solution>
+      </task>
+    </exercise>
+    <exercise>
+      <p>
+        Find the area of the largest triangle you can form with one vertex at <m>(0,0)</m>, one vertex at <m>(x,0)</m> and the third vertex at <m>\left(x,\frac{1}{1+x^2}\right)</m>.
+      </p>
+    </exercise>
+
+
+</exercises>
+</section>
+
+
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- End: -->
+

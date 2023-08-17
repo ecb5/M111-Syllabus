@@ -1,0 +1,577 @@
+<section>
+  <title> Related Rates </title>
+<p></p>
+<exercises>
+  <introduction>
+    <warning>
+      <p>
+        If you do not draw a sketch of these problems you are
+        handicapping yourself unnecessarily. <em>Draw yourself a
+        picture.</em>
+      </p>
+    </warning>
+  </introduction>
+      <exercisegroup cols="2">    <title>Particle Motion</title>
+      <introduction>
+        <p>
+          A particle in motion is constrained to move along the curve
+          <m>y=2x^2-x</m>.
+          Find the rate of change of <m>y</m> with respect to time if:
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>x=1</m> and the rate of change of <m>x</m> with respect to time is
+            <m>1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p><m>3</m></p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>x=12</m> and the rate of change of <m>x</m> with respect to time is
+            <m>10</m>.
+          </p>
+        </statement>
+        <answer>
+          <p><m>470</m></p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>x=15</m> and the rate of change of <m>x</m> with respect to time is
+            <m>-7</m>.
+          </p>
+        </statement>
+        <answer>
+          <p><m>-413</m></p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>x=a</m> and the rate of change of <m>x</m> with respect to time is
+            <m>b</m>.
+          </p>
+        </statement>
+        <answer>
+          <p><m>(4a-1)b</m></p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Find the value of <m>x</m> where the rate of change of <m>y</m> with
+            respect to time is the same as the rate of change of
+            <m>x</m> with respect to time.
+          </p>
+        </statement>
+        <!-- <answer> -->
+        <!--   <p><m>x=1/2</m></p> -->
+        <!-- </answer> -->
+      </exercise>
+    </exercisegroup>
+
+      <exercisegroup cols="2">    <title>Cubes</title>
+        <introduction>
+          <p>
+            All edges of a cube are expanding at the same rate. Find
+            the rate of change of the volume of the cube when:
+          </p>
+        </introduction>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>1,</m> and the rate of change of each
+              edge is <m>2</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>6</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>2,</m> and the rate of change of each
+              edge is <m>1</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>12</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>5,</m> and the rate of change of each
+              edge is <m>-3</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>-225</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>l,</m> and the rate of change of each
+              edge is <m>r</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>3l^2r</m></p>
+          </answer>
+        </exercise>
+      </exercisegroup>
+
+      <exercisegroup cols="2">    <title>Rectangular Solids</title>
+      <introduction>
+        <p>
+          Find the rate of change of the surface area of a
+          rectangular solid when:
+        </p>
+      </introduction>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>1,</m> and the rate of change of each
+              edge is <m>2</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>24</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>2,</m> and the rate of change of each
+              edge is <m>1</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>24</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>5,</m> and the rate of change of each
+              edge is <m>-3</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>-180</m></p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Each edge has length <m>l,</m> and the rate of change of each
+              edge is <m>r</m>.
+            </p>
+          </statement>
+          <answer>
+            <p><m>12lr</m></p>
+          </answer>
+        </exercise>
+      </exercisegroup>
+
+      <exercisegroup cols="2">    <title>Expanding Circles</title>
+        <introduction>
+          <p>
+            When a stone is dropped into a still lake a circular wave starts
+            expanding from the point of impact.
+          </p>
+        </introduction>
+        <exercise>
+          <statement>
+            <p>
+              If the radius of the wave is increasing at a rate of
+              <m>1/2</m> meter per second, how fast is the area enclosed
+              by the wave increasing when the radius is 2 meters?
+            </p>
+          </statement>
+          <answer>
+            <p><m>2\pi</m> square meters per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              If the radius of the wave is increasing at a rate of <m>2</m> meters per second,
+              how fast is the area enclosed by the wave increasing when the radius
+              is 10 meters?
+            </p>
+          </statement>
+          <answer>
+            <p><m>40\pi</m> square meters per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              If the radius of the wave is increasing at a rate of <m>\kappa</m> meters per second,
+              how fast is the area enclosed by the wave increasing when the radius
+              is <m>\rho</m> meters?
+            </p>
+          </statement>
+          <answer>
+            <p><m>2\cdot\pi\cdot\rho\cdot\kappa</m> square
+            meters per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              If the <term>circumference</term> of the wave is increasing at a rate of <m>6</m>
+              meters per second, how fast is the radius increasing?
+            </p>
+          </statement>
+          <answer>
+            <p><m>\frac{3}{\pi}</m> meters per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              If the area enclosed by the wave is increasing at a rate of <m>6</m>
+              meters per second when the radius is <m>10</m>, how fast is the radius increasing?
+            </p>
+          </statement>
+          <answer>
+            <p><m>\displaystyle\frac{3}{10\pi}</m> meters per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              If the circumference of the wave is increasing at a rate of <m>6</m>
+              meters per second, find the rate of change of  the area.
+            </p>
+          </statement>
+          <answer>
+            <p><m>\dfdx{r}{t}=6r</m></p>
+          </answer>
+        </exercise>
+      </exercisegroup>
+
+      <exercisegroup cols="2">    <title>Distance Problems</title>
+        <introduction>
+          <p>
+            Two  runners start running at the same time. Runner
+            <m>A</m> goes  east at <m>10</m> feet per second, and
+            runner <m>B</m> goes north at <m>8</m>
+            feet per second.
+          </p>
+          <p>
+            Find the rate at which the distance between them is
+            changing
+          </p>
+        </introduction>
+        <exercise>
+          <statement>
+            <p>
+              One minute (<m>60</m> seconds) later.
+            </p>
+          </statement>
+          <answer>
+            <p> <m>120\sqrt{41}</m> feet per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Two minutes  (<m>120</m> seconds) later.
+            </p>
+          </statement>
+          <answer>
+            <p> <m>240\sqrt{41}</m> feet per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Three minutes  (<m>180</m> seconds) later.
+            </p>
+          </statement>
+          <answer>
+            <p> <m>360\sqrt{41}</m> feet per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <m>k</m> minutes later.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Nope. Figure this one out yourself.
+            </p>
+          </answer>
+        </exercise>
+      </exercisegroup>
+      <exercisegroup cols="2"><title>More Distance Problems</title>
+        <introduction>
+          <p>
+            A runner starts running east at <m>10</m> feet per second. One
+            minute later, another runner starts running north at <m>8</m>
+            feet per second. Find the rate at which the distance between them is
+            changing
+          </p>
+        </introduction>
+        <exercise>
+          <statement>
+            <p>
+              One minute  after the second runner begins.
+            </p>
+          </statement>
+          <answer>
+            <p>Approximately <m>12.26</m> feet per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Two minutes after the second runner begins.
+            </p>
+          </statement>
+          <answer>
+            <p>Approximately <m>12.59</m> feet per second</p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Two minutes after the <term>first</term> runner begins.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Seriously? You need to look? Think about this one some
+              more.
+            </p>
+          </answer>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <m>k</m> minutes after the second runner begins.
+            </p>
+          </statement>
+          <answer>
+            <p>Nope. Figure this one out yourself.</p>
+          </answer>
+        </exercise>
+      </exercisegroup>
+
+  <exercise>
+    <statement>
+      <p>
+        A silo with a diameter of <m>20</m> feet is  topped with a hemisphere. If the
+        top is uniformly coated with a layer of ice <m>2</m> inches thick, and the ice is melting so
+        that the thickness is decreasing at a rate of <m>1/4</m> inches per hour,
+        how fast is the volume of the ice changing?
+      </p>
+    </statement>
+        <hint>
+<p>
+          Be careful. The problem gives some parameters in feet and others in
+          inches. 
+</p>
+</hint>
+    <answer>
+<p>
+      <m>-7442\pi</m> or, approximately <m>-23,368</m> cubic inches per hour
+</p>
+</answer>
+  </exercise>
+
+<exercise>
+<title>
+Cone Problems
+</title>
+
+<introduction>
+      <p>
+        Sand is poured onto a horizontal surface in such a way that it
+        always forms a right circular cone.
+      </p>
+</introduction>
+<task>
+      <statement>
+        <p>
+          Suppose that the height of the cone is always the same as
+          its radius.
+        </p>
+        <p>
+          After ten minutes the height of the cone is ten inches and
+          it is increasing at <m>6</m> inches per minute. How fast is
+          the volume of the cone increasing?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>600\pi</m> or approximately <m>1885</m> cubic inches per minute
+        </p>
+      </answer>
+</task>
+<task>
+      <statement>
+        <p>
+          Suppose that the height of the cone is always the same as
+          its diameter.
+        </p>
+        <p>
+          After ten minutes the height of the cone is ten inches and
+          it is increasing at <m>6</m> inches per minute. How fast is
+          the volume of the cone increasing?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>100\pi</m> or approximately <m>314</m> cubic inches per minute           
+        </p>
+      </answer>
+</task>
+<task>
+      <statement>
+        <p>
+          Suppose that the  height of the cone is always the same as
+          the square of its radius. 
+        </p>
+        <p>
+          After ten minutes the height of the cone is ten inches and
+          it is increasing at <m>6</m> inches per minute. How fast is
+          the volume of the cone increasing? 
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>\frac{200\pi}{3}</m> or approximately <m>209</m> cubic inches per minute
+        </p>
+      </answer>
+</task>
+</exercise>
+
+<!--   <exercisegroup><title>Right Circular Cone Problems</title> -->
+<!--     <introduction> -->
+<!--       <p> -->
+<!--         Sand is poured onto a horizontal surface in such a way that it -->
+<!--         always forms a right circular cone. -->
+<!--       </p> -->
+<!--     </introduction> -->
+<!--     <exercise> -->
+<!--       <statement> -->
+<!--         <p> -->
+<!--           Suppose that the height of the cone is always the same as -->
+<!--           its radius. -->
+<!--         </p> -->
+<!--         <p> -->
+<!--           After ten minutes the height of the cone is ten inches and -->
+<!--           it is increasing at <m>6</m> inches per minute. How fast is -->
+<!--           the volume of the cone increasing? -->
+<!--         </p> -->
+<!--       </statement> -->
+<!--       <answer> -->
+<!-- <p> -->
+<!--         <m>600\pi</m> or approximately <m>1885</m> cubic inches per minute -->
+<!-- </p> -->
+<!--       </answer> -->
+<!--     </exercise> -->
+<!--     <exercise> -->
+<!--       <statement> -->
+<!--         <p> -->
+<!--           Suppose that the height of the cone is always the same as -->
+<!--           its diameter. -->
+<!--         </p> -->
+<!--         <p> -->
+<!--           After ten minutes the height of the cone is ten inches and -->
+<!--           it is increasing at <m>6</m> inches per minute. How fast is -->
+<!--           the volume of the cone increasing? -->
+<!--         </p> -->
+<!--       </statement> -->
+<!--       <answer> -->
+<!-- <p> -->
+<!--         <m>100\pi</m> or approximately <m>314</m> cubic inches per minute            -->
+<!-- </p> -->
+<!--       </answer> -->
+<!--     </exercise> -->
+<!--     <exercise> -->
+<!--       <statement> -->
+<!--         <p> -->
+<!--           Suppose that the  height of the cone is always the same as -->
+<!--           the square of its radius.  -->
+<!--         </p> -->
+<!--         <p> -->
+<!--           After ten minutes the height of the cone is ten inches and -->
+<!--           it is increasing at <m>6</m> inches per minute. How fast is -->
+<!--           the volume of the cone increasing?  -->
+<!--         </p> -->
+<!--       </statement> -->
+<!--       <answer> -->
+<!-- <p> -->
+<!--         <m>\frac{200\pi}{3}</m> or approximately <m>209</m> cubic inches per minute -->
+<!-- </p> -->
+<!--       </answer> -->
+<!--     </exercise> -->
+<!--   </exercisegroup> -->
+<!-- <exercise> -->
+<!-- <p>Find the radius of a sphere when the rate of change of the radius -->
+<!-- and the rate of change of the surface area are equal.</p> -->
+<!-- </exercise> -->
+<!-- <exercise> -->
+<!-- <p>Find the radius of a sphere when the rate of change of the radius -->
+<!-- and the rate of change of the volume are equal.</p> -->
+<!-- </exercise> -->
+<exercise>
+<p>The radius of a sphere is constantly changing. Find the radius of a
+sphere when the rate of change of the surface area and the rate of
+change of the volume are equal.</p>
+</exercise>
+
+<exercise>
+<introduction>  <p>
+    A ballon is rising vertically above a straight, level road at a
+    constant rate of <m>5</m> ft/sec. When the balloon is <m>100</m> feet
+    above the road a bicycle passes directly underneath moving at
+    <m>30</m> ft/sec. 
+  </p></introduction>
+  <task>
+    <p>
+      How fast is the distance between them changing <m>10</m> seconds
+      later?
+    </p>
+  </task>
+<task>
+<p>
+How fast is the angle from directly below the balloon, to the ballon,
+to the bicycle changing <m>10</m> seconds later?
+</p>
+</task>
+<task>
+<p>
+Do parts
+(a) and (b) again assuming that the ground is sloping upwards at <m>30^\circ</m>. 
+</p>
+
+</task>
+
+</exercise>
+
+
+</exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->

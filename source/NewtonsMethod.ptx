@@ -1,0 +1,254 @@
+<section>
+  <title> Newton's Method  </title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="4"><title>Finding the Correct Root</title>
+    <introduction>
+      <p>
+        The function <m>f(x) = x^3-3x</m> has roots at
+        <m>r_1=-\sqrt{3},</m> <m>r_2=0,</m> and <m>r_3=\sqrt{3}</m>. For
+        each of the following use the initial guess <m>x_0</m>, to
+        find the indicated root.
+      </p>
+      <p>
+        Does it work? Why or why not.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:<m>x_0=10,</m>
+        </p>
+        <p>
+          Root: <m>r_3</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:    <m>x_0=10,</m> 
+        </p>
+        <p>
+          Root: <m>r_2</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=-10,</m> 
+        </p>
+        <p>
+          Root: <m>r_1</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=0,</m> 
+        </p>
+        <p>
+          Root: <m>r_3</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=0,</m> 
+        </p>
+        <p>
+          Root: <m>r_2</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_1</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_2</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_3</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=-.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_1</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=-.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_2</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Initial guess:          <m>x_0=-.9,</m> 
+        </p>
+        <p>
+          Root: <m>r_3</m>
+        </p>
+      </statement>
+    </exercise>
+    </exercisegroup>
+    <exercisegroup cols="4">
+      <title>Finding A Single Root</title>
+      <introduction>
+        <p>
+          Use Newton's Method to compute the root of each function to at
+          least two decimals.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x-1</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x-3</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x+1</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x+2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x+3</m>
+          </p>
+        </statement>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="4">
+      <title> Finding Multiple Roots</title>
+      <introduction>
+        <p>
+          Use Newton's Method to find all of the roots of each function and
+          compute them to at least two decimals.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3-x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3-2x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+2x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3-3x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+3x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3-4x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>f(x) = x^3+4x^2-5x-2</m>
+          </p>
+        </statement>
+      </exercise>
+    </exercisegroup>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

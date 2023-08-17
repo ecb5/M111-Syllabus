@@ -1,0 +1,343 @@
+<section><title>Semester Schedule</title>
+<p>
+Notice that the weeks of 11/3 and 11/20 have been left blank.
+This is because every semester, and every class is unique. I leave these two weeks unscheduled so that we have room to speed up, or slow down to meet this class's unique qualities. 
+</p>
+<table xml:id="SemesterSchedule">
+  <title>Semester Schedule</title>
+
+  <tabular break="yes" top="major">
+    <col width="16%"/>
+    <col width="28%"/>
+    <col width="28%"/>
+    <col width="28%"/>
+
+    <row bottom="minor">
+      <cell halign="left">
+        <p>
+          <alert><p>By this date</p></alert>
+        </p>
+      </cell>
+      <cell halign="left">
+        <p>
+          <alert><p> you should have read these sections.</p></alert>
+        </p>
+      </cell>
+      <cell halign="left">
+        <p>
+          <alert>
+            <p> Monday</p>
+          </alert>
+        </p>
+        <p>
+          <alert> <p>Come to class   prepared to discuss and/or solve these problems.</p></alert>
+        </p>
+      </cell>
+      <cell halign="left">
+        <p>
+          <alert>
+            <p>
+              Wednesday
+            </p>
+          </alert>
+          </p><p>     <alert> <p>Come to class prepared to discuss and/or solve these problems.</p></alert>
+        </p>
+      </cell>
+    </row>
+
+    <row bottom="minor">
+      <cell> <p>8/28/23 </p>
+      </cell>
+      <cell>
+        <p>
+          the Preface, Chapter 1, Sections 2.1, 2.2, 2.3, and 2.4
+        </p>
+        <!-- <p> -->
+        <!--   <aside><title>Note</title> <p>Don't panic. This first week is  not as much reading as it appears to be. Later in the semester it wi </p></aside> -->
+        <!-- </p> -->
+      </cell>
+      <cell><p> #9, #12, #15</p>
+      </cell>
+      <cell>
+      <p>
+#19, #20
+</p>
+      </cell>
+    </row>
+
+    <row bottom="minor">
+      <cell><p>9/4/23</p> </cell>
+      <cell>
+        <p>
+          Sections 2.6 and  2.7
+        </p>
+<p>
+Chapter 3
+</p>
+      </cell>
+      <cell>
+        <p>
+#38, #47, #52
+        </p>
+      </cell>
+      <cell>
+        <p>
+#53b, 
+        </p>
+      </cell>
+    </row>
+
+    <row bottom="minor">
+      <cell><p>9/11/23</p> </cell>
+      <cell>
+        <p>
+          Chapter 4
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <p>
+
+      </p>    <row bottom="minor">
+      <cell><p>9/18/23</p> </cell>
+      <cell>
+        <p>
+          Chapter 5
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>9/25/23</p> </cell>
+      <cell>
+        <p>
+          Chapter 6
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>10/2/23</p> </cell>
+      <cell>
+        <p>
+          Sections 7.1, 7.2, 7.3, 7.4
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>10/9/23</p> </cell>
+      <cell>
+        <p>
+          Sections 7.5, 7.6, 8.1, 8.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>10/16/23</p> </cell>
+      <cell>
+        <p>
+          Sections 8.3, 8.4, 8.5, 8.6, 8.7
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>10/23/23</p> </cell>
+      <cell>
+        <p>
+          Chapter 9
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>10/30/23</p> </cell>
+      <cell>
+        <p>
+Chapter 10
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row bottom="minor">
+      <cell><p>11/6/23</p> </cell>
+      <cell>
+        <p>
+Chapter 11
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>11/13/23</p> </cell>
+      <cell>
+        <p>
+          TBD
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>11/20/23<aside>
+      <title>Note</title>
+      <p>No class on 11/21/23 due to Thanksgiving holiday.</p>
+    </aside></p>
+    <p>
+
+    </p>
+      </cell>
+      <cell>
+        <p>
+TBD
+        </p>
+      </cell>
+      <cell>
+<p>
+
+</p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+    <row bottom="minor">
+      <cell><p>11/27/23</p> </cell>
+      <cell>
+        <p>
+          Chapter 12, Sections 13.1 through 13.6
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    <row bottom="minor"> 
+      <cell><p>12/4/23</p> </cell>
+      <cell>
+        <p>
+          Section 13.7
+        </p>
+<p>
+Chapters 14 and 15
+</p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+      <cell>
+        <p>
+
+        </p>
+      </cell>
+    </row>
+
+    
+  </tabular>
+</table>
+
+</section>

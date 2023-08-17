@@ -1,0 +1,175 @@
+<section><title>Grading Policies</title>
+<p>
+  You can earn as many as 1000 points during this semester:
+  <ul>
+    <li>
+      450 for Participation
+    </li>
+    <li>
+      300 from the WeBWork problems,
+    </li>
+    <li>
+      150 from the quizzes,
+    </li>
+    <li>
+      100 from the two exams (50 points each).
+    </li>
+  </ul>
+</p>
+<p>
+  The grade you receive at the end of this semester will
+  be computed as follows:
+</p>
+<aside><title>Participation Score:</title>
+<p>
+For example: Suppose  this  class is conducted <m>12</m> times. Then
+<m>C=12</m>. If you earned <m>2</m> points (this is the most you can
+earn) in <m>10</m> of them, and only <m>1</m> in the other two then <m>P=2\times 10 + 1\times 2=22</m>.
+
+</p>
+<p>
+In that case your participation score  is 
+<m>225\times\frac{P}{C}=412.5</m>.
+</p>
+
+</aside>
+<p>
+  Let <m>P</m> be the number of Participation points you earned, and let <m>C</m> be the number of days class is conducted. Then your participation score will be <m>225\times\frac{P}{C}</m>.
+</p>
+
+<aside><title>Quiz Score:</title>
+<p>
+  If <m>3</m> quizzes are
+  given on which you got <m>2</m>, <m>7</m>, and <m>8</m> points then
+  <m>Q=\frac{2+7+8}{3}=5.6</m>.
+
+</p>
+<p>
+In that case your quiz score is <m>15Q=84</m>.
+</p>
+</aside><p>
+  Let <m>Q</m> be the average of your quiz scores at the end of the
+  semester. Then your quiz score is <m>15Q</m>.
+</p>
+
+<p>
+  Let <m>W</m> be the number of Webwork problems you solved and let
+  <m>T</m> be the total number of Webwork problems available. Then
+  your Webwork score is <m>300\times\frac{W}{T}</m>.
+</p>
+<p>
+  Your total points =
+  <m> 225\left(\frac{P}{C}\right) + 300\left(\frac{W}{T}\right) + 15Q  + E1 + E2</m>
+</p><aside><title>Please Check This Formula!!</title>
+<p>
+  Please make sure this formula is consistent with the information
+  above <em>and let me know if it is not</em>. Some semesters I tweak
+  the grading scheme a bit and inconsistencies can crop up. I try to
+  catch these before the semester begins but sometimes I miss stuff.
+</p>
+</aside>
+<p>
+  Finally let <m>E1</m> and <m>E4</m> be your score on each of the
+  exams.
+</p>
+
+<p>
+<alert>
+I do not use the gradebook on Canvas. If something shows up there it
+is because I couldn't find a way to prevent it. I keep grade records
+offline in a spreadsheet. Moreover, I do not keep your grade records
+in a form that allows me to tell you what your "current" grade is.
+  If you want a running record of your "current" grade you have to
+  keep your own records of your Quiz, WeBWorK, Participation, and Exam scores.
+</alert>
+</p>
+<aside>
+<title>Pluses and Minuses:</title>
+<p>
+  At the end of the semester if your computed grade seems to me to be
+  lower than your level of mastery warrants I reserve the right to
+  raise your grade with a plus or minus.
+</p>
+<p>
+  For example, if you have <m>795</m> points your computed grade would
+  be a C but it is at the very high end of the C range.  If, in
+  my opinion, your level of mastery indicates that a higher grade is
+  appropriate I will raise this to a B-.
+</p>
+<p>
+  In similar circumstances if you have <m>700</m> points I would
+  raise your grade to a C+.  Such adjustments will be rare
+  and will be done  <em>solely</em> at my discretion.
+</p>
+<p>
+  Finally, I will <alert>never</alert> lower your grade in this
+  manner. If your score is <m>700</m> points you will get no less
+  than a C.
+</p>
+<p>
+  Keep in mind that grades are <em>earned</em> not given.
+</p>
+</aside>
+<p>
+  Your course grade will be based on your total, according
+  to the following table.
+</p>
+  <table xml:id="GradeScale"><title>Grading Scale</title>
+    <tabular>
+      <row>
+        <cell bottom="major">
+        </cell>
+        <cell bottom="major">
+        </cell>
+      </row>
+      <row>
+        <cell halign="left" bottom="minor">
+          Grade
+        </cell>
+        <cell halign="left" bottom="minor">
+          Range
+        </cell>
+      </row>
+      <row>
+        <cell>
+          A
+        </cell>
+        <cell>
+          900-1000
+        </cell>
+      </row>
+      <row>
+        <cell>
+B
+        </cell>
+        <cell>
+ 800-899
+        </cell>
+      </row>
+      <row>
+        <cell>
+C        
+        </cell>
+        <cell>
+ 700-799
+        </cell>
+      </row>
+      <row>
+        <cell>
+        D
+        </cell>
+        <cell>
+         600-699
+        </cell>
+      </row>
+      <row>
+        <cell>
+F
+        </cell>
+        <cell>
+ <m>\lt 600</m>
+        </cell>
+      </row>
+    </tabular>
+</table>
+</section>

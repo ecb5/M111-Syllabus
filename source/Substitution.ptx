@@ -1,0 +1,803 @@
+<section>
+  <title> Integration by Substitution  </title>
+  <p></p>
+  <exercises>
+    <title>
+      Elementary Substitutions
+    </title>
+    <exercisegroup cols="3">
+      <title>
+        Indefinite Integrals
+      </title>
+      <introduction>
+        <p>
+          Compute each of the following indefinite integrals
+          (antiderivatives).
+        </p>
+      </introduction>
+      <!-- <title> -->
+      <!--   Exercise Title -->
+      <!-- </title> -->
+      <!-- <introduction> -->
+      <!-- -->
+      <!-- </introduction>   -->
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int 3x^2(x^3-1)^5\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{(x^3-1)^6}{6}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int 3x^2(x^3-1)^5\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{(x^3-1)^6}{6}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sin(x)\cos(x)\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{\sin^2(x)}{2}+C = -\frac{\cos^2(x)}{2}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{\sin\sqrt{x}}{\sqrt{x}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -2\cos\left(\sqrt{x}\right)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int \frac{1}{5-3x} \dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -\frac13\ln\abs{5-3x})+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{4}{(1+2x)^3}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{-1}{(1+2x)^2}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sin^2(x)\cos(x)\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{\sin^3(x)}{3}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \cos^2(x)\sin(x)\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -\frac{\cos^3(x)}{3}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \cos^3(x)\sin^3(x)\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{\sin^4(x)}{4}-\frac{\sin^6(x)}{6}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{e^x}{1+e^{2x}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \inverse\tan(e^x)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sqrt{4-2x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{(4-2x)^{\frac32}}{3}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sqrt[3]{4-2x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac34(4-2x)^{\frac43}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int  \frac{e^x}{1+e^x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \ln(1+e^x)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int 7x\sqrt[5]{x^2+2}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{35}{12}(x^2+2)^{\frac52}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sec^3(x)\tan(x)\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{\sec^3(x)}{3}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{\sin(\pi/x)}{x^2}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac{1}{\pi}\cos(\pi/x)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int x^5\sqrt[3]{x^3+2}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac17(x^3+2)^{\frac73}-\frac32(x^3+2)^{\frac43}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{x}{\sqrt[4]{x+2}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac47(x+2)^{\frac74}-\frac83(x+2)^{\frac34}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{x^2}{\sqrt{1-x}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -\left(2(1-x)^{1/2}-\frac43(1-x)^{3/2}+\frac25(1-x)^{5/2}\right)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \frac{1}{\sqrt{1+\sqrt{1+x}}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -\frac83\left(\sqrt{1+\sqrt{1+x}+4\sqrt{1+x+(1+x)^{\frac32}}}\right)+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int
+            \frac{\cos(x)\sin(x)}{\sqrt{\cos^2(x)+16}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -\sqrt{\cos^2(x)+16}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int x\sqrt{1-\sqrt{x}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              \frac25(1-\sqrt{x})^{5/2}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle\int \sqrt{x-x\sqrt{x}}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>
+              -(1-\sqrt{x})^{3/2}+C
+            </m>
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="3"><title> Definite Integrals</title>
+    <introduction>
+      <p>
+        Compute each of the following definite integrals.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{1} \cos(\pi x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            0
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{\pi/4} \sin(4x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \frac12
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{2} (x-1)^{25}\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            0
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{7} \sqrt{4+3x}\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            26
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{1} x^2(1+2x^3)^5\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \frac{182}{9}
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{\sqrt{\pi}} x\cos(x^2)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            =\frac{\sin\left(13^2\right)}{2}\approx 0.301
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{13} \frac{1}{\sqrt[3]{(1+2x)^2}}
+          \dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            3
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{-\pi/3}^{\pi/3} \sin^5(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            0
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{4}
+          \frac{x}{\sqrt{1+2x}}\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \frac{10}{3}
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{3} \frac{1}{2x+3} \dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \ln\left(\sqrt{3}\right)
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{0}^{1/2}
+          \frac{\inverse\sin(x)}{\sqrt{1-x^2}}\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \frac{\pi^2}{72}
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{e}^{e^4} \frac{1}{x\ln(x)}\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>
+            \ln{4}\approx 1.38629
+          </m>
+        </p>
+      </solution>
+    </exercise>
+    </exercisegroup>
+
+
+    <exercise><title>  Find The Pattern</title>
+    <task>
+      <statement>
+        <p>  
+          Show that
+          <m> \int_0^1x^2(1-x)^3\dx{x} = \int_0^1x^3(1-x)^2\dx{x}</m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Try the substitution:
+          <m>u=1-x</m>. <alert>Don't</alert> lose track of the
+          negatives.
+        </p>
+      </hint>
+    </task>
+    <task>
+      <p>
+        <m>\int_0^1x^5(1-x)^6\dx{x} = \int_0^1x^6(1-x)^5\dx{x}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>\int_0^1x^a(1-x)^3\dx{x} = \int_0^1x^3(1-x)^a\dx{x}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m> \int_0^1x^3(1-x)^b\dx{x} = \int_0^1x^b(1-x)^3\dx{x}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m> \int_0^1x^a(1-x)^b\dx{x} =
+        \int_0^1x^b(1-x)^a\dx{x}</m> 
+      </p>
+      <p>
+        (Assume that <m>a</m> and <m>b</m> are positive
+        numbers.)
+      </p>
+    </task>
+    <task>
+      <p>
+        Use the pattern you found in the problems above to show that
+        if <m>f</m> is integrable then
+        <md>
+          <mrow>\int_0^1f(x)\dx{x} = \int_0^1f(1-x)\dx{x}</mrow>
+        </md>
+      </p>
+    </task>
+    </exercise>
+
+
+
+    <exercise><title>  Find The Pattern</title>
+    <introduction>
+      <p>
+        Find a function, <m>y=f(x)</m>, which satisfies each of the  following
+        equations.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^2</m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Try differentiating.  
+        </p>
+      </hint>
+      <!--   <hint> -->
+      <!-- <p> -->
+      <!--     Try using differential notation: <m>\int_0^xy(t)\dx{t}=\abs{y^2}</m> -->
+      <!-- </p> -->
+      <!--   </hint> -->
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^3</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^4</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^n</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^{1/2}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^{1/3}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^{1/4}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]^{1/n}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^xf(t)\dx{t} = [f(x)]</m>
+        </p>
+      </statement>
+    </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose <m>f(x)</m> is a continuous function in the interval
+          <m>[0,1]</m> and that <m>\int_0^1f(x)\dx{x} = \frac13</m>.
+        </p>
+        <p>
+          Assume that each of the following is also true on the same interval.
+        </p>
+        <p>
+          <md>
+            <mrow>f(0)=0,</mrow>
+            <mrow> f(1)=1,</mrow>
+            <mrow> f^\prime(x)>0.</mrow>
+          </md> 
+        </p>
+        <p>
+          Show that <m>\displaystyle\int_0^1\inverse{f}(y)\dx{y} =
+          \frac23.</m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          There is nothing to compute here. Try drawing a picture of the
+          problem.
+        </p>
+      </hint>
+    </exercise>
+
+    <exercisegroup cols="2"><title>Find the Pattern:</title>
+    <introduction>
+      <p>
+        Show that each of the following is true:
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m> \int_0^2\sin\sqrt{x}\dx{x} =
+          2\int_0^4x\sin(x)\dx{x} </m> 
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m> \int_0^2\sin\left(x^{1/3}\right)\dx{x}
+          =   3\int_0^8x^{2}\sin(x)\dx{x}</m> 
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m> \int_0^2\sin\left(x^{1/4}\right)\dx{x} =
+          4\int_0^{16}x^{3}\sin(x)\dx{x}</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m> \int_0^2\sin\left(x^{1/n}\right)\dx{x}
+          = n\int_0^{2^n} x^{n-1}\sin(x) \dx{x}</m>
+        </p>
+      </statement>
+    </exercise>
+    </exercisegroup>
+
+    <exercise>
+      <introduction>
+        <p>
+          Use the pattern you found in the previous problems to show that
+          <m>\int_0^2\sin\left(x^{m/n}\right)\dx{x}</m>
+          is equal to each of the following:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m> n\int_0^{2^{n}}x^{n-1}\sin(x^m)\dx{x}</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m> \frac{n}{m}\int_0^{2^{nm}}x^{\frac{n}{m}-1}\sin(x) \dx{x}</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise> <title> Generalize The Pattern</title>
+    <introduction>
+      <p>
+        Show that
+        <md><mrow>\int_0^2f\left(x^{m/n}\right)\dx{x}</mrow></md>
+        is equal to each of the following:
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle n\int_0^{2^{n}}x^{n-1}f(x^m)\dx{x}</m>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\frac{n}{m}\int_0^{2^{nm}}x^{\frac{n}{m}-1}f(x) \dx{x}</m>
+        </p>
+      </statement>
+    </task>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Use the pattern you found in the previous problems to find an
+          integral that is equal to 
+          <md><mrow>\displaystyle
+          \int_a^bf\left(x^{m/n}\right)\dx{x}</mrow></md>
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

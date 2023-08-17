@@ -1,0 +1,70 @@
+<worksheet>
+  <title> The Product Rule </title>
+  <exercisegroup>
+    <exercise>
+      <p>
+        Compute <m>\dfdx{y}{x}</m> for each of the following:
+      </p>
+      <ol cols="2" marker="(a)">
+        <li>
+          <m>y=x+1</m>
+        </li>
+        <li>
+          <m>y=(x+1)(x+2)</m>
+        </li>
+        <li>
+          <m>y=(x+1)(x+2)(x+3)</m>
+        </li>
+        <li>
+          <m>y=(x+1)(x+2)(x+3)(x+4)</m>
+        </li>
+        <li>
+          <m>y=(x+1)(x+2)(x+3)(x+4)(x+5)</m>
+        </li>
+      </ol>
+      Now guess what the derivative of <m>y=(x+1)(x+2)(x+3)\ldots(x+n)</m> will
+      be. Can you prove that your guess is correct?
+    </exercise>
+
+    <exercise>
+      <p>
+        Compute <m>\dfdx{y}{x}</m> for each of the following:
+      </p>
+      <ol marker="(a)">
+        <li>
+          <m>f(x) = xe^x</m>
+        </li>
+        <li>
+          <m>f(x) = x^2e^x</m>
+        </li>
+        <li>
+          <m>f(x) = x^3e^x</m>
+        </li>
+        <li>
+          <m>f(x) = x^4e^x</m>
+        </li>
+        <li>
+          <m>f(x) = xe^{-x}</m>
+        </li>
+        <li>
+          <m>f(x) = x^2e^{-x}</m>
+        </li>
+        <li>
+          <m>f(x) = x^3e^{-x}</m>
+        </li>
+        <li>
+          <m>f(x) = x^4e^{-x}</m>
+        </li>
+      </ol>
+    </exercise>
+
+  </exercisegroup>
+</worksheet>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

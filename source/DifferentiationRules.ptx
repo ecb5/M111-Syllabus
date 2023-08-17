@@ -1,0 +1,554 @@
+<worksheet>
+  <title> Basic Differentiation 1</title>
+
+  <exercise>
+    <title> Notebook Problem</title>
+    <ol marker="(I)">
+      <li>
+        <p>
+          Compute <m>\dfdx{y}{x}</m> for each of the following:
+        </p>
+        <ol marker="(a)" cols="2">
+          <li>
+            <m>y=x+1</m>
+            <p>
+              <solution>
+                <p>
+                  <m>\dfdx{y}{x}=1</m>
+                </p>
+              </solution>
+            </p>
+          </li>
+          <li>
+            <m>y=(x+1)(x+2)</m>
+            <p>
+              <solution>
+                <p>
+                  <m>\dfdx{y}{x}=(x+1)+(x+2)</m>
+                </p>
+              </solution>
+            </p>
+          </li>
+          <li>
+            <m>y=(x+1)(x+2)(x+3)</m>
+            <p>
+              <solution>
+                <p>
+                  <m>\dfdx{y}{x}=(x+1)(x+2) + (x+1)(x+3)+(x+2)(x+3)</m>
+                </p>
+              </solution>
+            </p>
+          </li>
+          <li>
+            <m>y=(x+1)(x+2)(x+3)(x+4)</m>
+            <p>
+              <solution>
+                <p>
+                  <m>\dfdx{y}{x}=(x+1)(x+2)(x+3) + (x+1)(x+2)(x+4)  + (x+1)(x+3)(x+4) + (x+2)(x+3)(x+4) </m>
+                </p>
+              </solution>
+            </p>
+          </li>
+          <li>
+            <m>y=(x+1)(x+2)(x+3)(x+4)(x+5)</m>
+          </li>
+        </ol>
+      </li>
+      <li>
+        Now guess what the derivative of <m>y=(x+1)(x+2)(x+3)\ldots(x+n)</m> will
+        be. Can you prove that your guess is correct?
+      </li>
+      <li>
+        Finally,  what is the derivative of
+        <m>y=(x+c_1)(x+c_2)(x+c_3)\ldots(x+c_n)</m> if <m>c_1, c_2, c_3,
+        \ldots, c_n</m> are assumed to be (unknown) constants?
+      </li>
+    </ol>
+  </exercise>
+
+  <exercisegroup cols="6">
+    <title>
+      Constant Functions
+    </title>
+<introduction>
+    Compute <m>\dfdx{y}{x}</m> for each of the following:
+</introduction>
+<exercise>
+      <p>  <m>y=1</m></p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <m>
+        y=\pi
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+
+      <m>
+        y=\pi^3
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <m>
+        y=\dfrac{\sqrt{2}}{\pi}
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <m>
+        y=\sqrt{2}\pi
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <m>
+        y=\dfrac{\pi^{3/2}}{1-\pi}
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <m>
+        y=2,000,000,000
+      </m>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+  </exercisegroup>
+
+  <exercisegroup cols="6"> 
+    <title>
+      Linear Functions
+    </title>
+<introduction>
+      Compute <m>\dfdx{y}{x}</m> for each of the following:
+</introduction>
+    <exercise>
+      <p>
+        <m> y=x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=1</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=2x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=2</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=20x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=20</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=0.0002x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0.0002</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=\pi x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\pi </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=\sqrt{2}x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\sqrt{2}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=(\pi+\sqrt{2})x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=(\pi+\sqrt{2})</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=\pi x+\sqrt{2}x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\pi+\sqrt{2} </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=\dfrac{(\pi+\sqrt{2})x}{x}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=0</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=\dfrac{(1-x)x^4}{x^3-x^4}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=1</m>
+        </p>
+      </solution>
+    </exercise>
+  </exercisegroup>
+
+  <exercisegroup cols="6">
+    <title>
+      Polynomials and Rational Functions 
+    </title>
+<introduction>
+      Compute <m>\dfdx{y}{x}</m> for each of the following:
+</introduction>
+    <exercise>
+      <p>
+        <m> y=x^2</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=2x</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=x^3</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=3x^2</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y=x^2+x^3</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=2x+3x^2</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^2+x^3 + x^4</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=2x+3x^2+4x^3</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^2+x^3 + x^4+x^5</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=4x^4+4x^3+3x^2+2x</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^2-x^3 + x^4-x^5</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=2x-3x^2+4x^3-5x^4</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= 2x^2+3x^3</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=4x+9x^2</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= 5(2x^2+3x^3)</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=20x+45x^2</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^{-2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{-2}{x^3}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^{-3}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{-3}{x^4}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^{-1}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{-1}{x^2}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac1x</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=-x^{-2}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac{1}{x^5}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=-5x^{-6}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac1x+\dfrac{1}{x^2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=-x^{-2}-2x^{-3}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac3x+\dfrac{7}{x^2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{-3}{x^2}-14\dfrac{1}{x^3}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac3x+\dfrac{-7}{x^2}-\dfrac{5}{x^3}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{-3}{x^2}-\dfrac{14}{x^3}+\dfrac{15}{x^4}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^{3/2}</m>
+      </p>
+      <solution>
+
+        <p>
+          <m>\dfdx{y}{x}=\frac32 \sqrt{x}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= x^{3/2}+x^{-3/2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{3}{2} \sqrt{x}
+          -\dfrac{3}{2\sqrt[5]{x}}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac{3x^5-\dfrac72x^4-\pi x^3}{3x^{1/2}}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac92
+          x^{7/2}-\dfrac{49}{12}x^{5/2}-\frac{4\pi}{6}x^{3/2}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \dfrac{2x^5-7x^{4/3} + x^{-1}- x^{-3}}{x^2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=6x^2+\dfrac{14}{3}x^{-5/3}-\dfrac{3}{x^4}=\dfrac{5}{x^6}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \sqrt{x^3}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{3}{2}\sqrt{x}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= \sqrt[3]{x^2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=\dfrac{2}{3\sqrt[3]{x}}</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <p>
+        <m> y= 8\sqrt{x^3} - 6\sqrt[3]{x^2}</m>
+      </p>
+      <solution>
+        <p>
+          <m>\dfdx{y}{x}=12\sqrt{x}+\dfrac{12}{3\sqrt[3]{x}}</m>
+        </p>
+      </solution>
+    </exercise>
+  </exercisegroup>
+
+
+  <exercisegroup cols="6">
+    <title> Exponentials</title>
+<introduction>
+      Compute <m>\dfdx{y}{x}</m> for each of the following:
+</introduction>
+    <exercise>
+      <p>
+        <m>f(x) = xe^x</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^2e^x</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^3e^x</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^4e^x</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = xe^{-x}</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^2e^{-x}</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^3e^{-x}</m>
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        <m>f(x) = x^4e^{-x}</m>
+      </p>
+    </exercise>
+  </exercisegroup>
+
+</worksheet>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

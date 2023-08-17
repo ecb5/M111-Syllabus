@@ -1,0 +1,64 @@
+<section>  <title>Pre-Calculus</title>
+<p></p>
+<exercises>
+  <title>Fermat's Method of Aedequality</title>
+  <exercisegroup cols="3">
+    <title>
+    </title>
+    <introduction>
+      <p>
+        Find all maxima and minima of the following curves using Fermat's Method of Aedequality. Use the Desmos window below to check your answers.
+      </p>
+      <figure>
+        <caption>
+        </caption>
+        <interactive desmos="kzcftro2ps"
+                     width="150%" aspect="2:1" />
+      </figure>
+
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=x^2</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=x^3 </m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=5x^4 </m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=3x-x^2 </m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=\sqrt{x} </m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>y=\sin(x) </m>
+        </p>
+      </statement>
+    </exercise>
+  </exercisegroup>
+</exercises>
+</section>

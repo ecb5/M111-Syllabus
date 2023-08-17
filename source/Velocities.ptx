@@ -1,0 +1,615 @@
+<section>
+  <title> Velocities </title>
+  <p></p>
+  <exercises><title>Points Moving on a Graph</title>
+    <exercisegroup cols="2">
+      <introduction>
+        <p>
+          For each of the following problems imagine a point is moving
+          on the graph of the given curve so that the <m>x</m>
+          coordinate is as given in the problem.
+          <ol marker="(I)">
+            <li>Find an equation of <em>every</em> tangent line to each curve
+            below at the given <m>x</m> coordinate.
+            </li>
+            <li>
+              Find the vertical velocity,
+              <m>\left(\dfdx{y}{t}\right)</m>, in terms of <m>t</m> at
+              the given point.
+            </li>
+            <li> Find the horizontal velocity,
+            <m>\left(\dfdx{x}{t}\right)</m>, in terms of <m>t</m> at
+            the given point.
+            </li>
+          </ol>
+        </p>
+<p>
+If not given, check the tangent lines by graphing them.
+</p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <alert>Curve:</alert>  <m>x^2+y^2=16 </m>
+          </p>
+          <p>
+            <alert>Horizontal position:</alert>  <m> x=t </m>
+          </p>
+          <p>
+            <alert>Points:</alert> 
+            <md>
+              <mrow>t=\pm2,</mrow>
+              <mrow>t=0,</mrow>
+              <mrow>t=\pm1/2</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=-2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-2\sqrt{3}=\frac{1}{\sqrt{3}}(x+2)</mrow>
+                      <mrow>y+2\sqrt{3}=-\frac{1}{\sqrt{3}}(x+2)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-2\sqrt{3}=-\frac{1}{\sqrt{3}}(x-2)</mrow>
+                      <mrow>y+2\sqrt{3}=\frac{1}{\sqrt{3}}(x-2)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=4</mrow>
+                      <mrow>y=-4</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=1/2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-\frac{\sqrt{63}}{2}=-\frac{1}{\sqrt{63}}\left(x-\frac12\right)</mrow>
+                      <mrow>y+\frac{\sqrt{63}}{2}=\frac{1}{\sqrt{63}}\left(x-\frac12\right)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=-1/2</m>:</title>
+                  <p>              <md>
+                    <mrow>y-\frac{\sqrt{63}}{2}=\frac{1}{\sqrt{63}}\left(x+\frac12\right)</mrow>
+                    <mrow>y+\frac{\sqrt{63}}{2}=-\frac{1}{\sqrt{63}}\left(x+\frac12\right)</mrow>
+                  </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{-t}{\sqrt{16-t^2}}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=1</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <alert>Curve:</alert>  <m>x^2+y^2=16 </m>
+          </p>
+          <p>
+            <alert>Horizontal position: </alert> <m> x=t^2 </m>
+          </p>
+          <p>
+            <alert>Points:</alert> 
+            <md>
+              <mrow>t=\pm2,</mrow>
+              <mrow>t=0,</mrow>
+              <mrow>t=\pm1/2</mrow>
+            </md>
+          </p>
+          <p> This is <alert>not</alert> the same as the previous problem. Look again.</p>
+        </statement>
+        <solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>x=4</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=-2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>x=4</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=4</mrow>
+                      <mrow>y=-4</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=\pm1/2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-\frac{\sqrt{255}}{4}=-\frac{1}{\sqrt{255}}\left(x-\frac14\right)</mrow>
+                      <mrow>y+\frac{\sqrt{255}}{4}=\frac{1}{\sqrt{255}}\left(x-\frac14\right)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{-t}{\sqrt{16-t^2}}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=1</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+        </solution>
+      </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <alert>Curve:</alert> <m>x^2+y^2=121 </m>
+            </p>
+            <p>
+              <alert>Horizontal position:</alert> <m> x=t^3 </m>
+            </p>
+            <p>
+              <alert>Points:</alert>
+              <md>
+                <mrow>t=0,</mrow>
+                <mrow>t=\pm1,</mrow>
+              </md>
+            </p>
+          </statement>
+<solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=11</mrow>
+                    </md>
+                    <md>
+                      <mrow>y=-11</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=1</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-\sqrt{120}=-\frac{1}{\sqrt{120}}(x-1)</mrow>
+                    </md>
+                    <md>
+                      <mrow>y+\sqrt{120}=\frac{1}{\sqrt{120}}(x-1)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y+\sqrt{57}=-\frac{8}{\sqrt{57}}(x-8)</mrow>
+                      <mrow>y-\sqrt{57}=\frac{8}{\sqrt{57}}(x-8)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{3t^5}{\sqrt{121-t^6}}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=3t^2</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+</solution>
+</exercise>
+
+        <exercise>
+          <statement>
+            <p>
+              <alert>Curve:</alert>  <m>\frac{x^2}{4} + \frac{y^2}{9}=1</m>
+            </p>
+            <p>
+              <alert>Horizontal position: </alert> <m>x=3t </m>
+            </p>
+            <p>
+              <alert>Points:</alert> 
+              <md>
+                <mrow>t=\pm1/2,</mrow>
+                <mrow>t=0</mrow>
+              </md>
+            </p>
+          </statement>
+          <solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=1/2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=11</mrow>
+                    </md>
+                    <md>
+                      <mrow>y=-11</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=-1/2</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-\frac{3\sqrt{7}}{4}=-\frac{9}{2\sqrt{7}}(x-3/2)</mrow>
+                      <mrow>y+\frac{3\sqrt{7}}{4}=\frac{9}{2\sqrt{7}}(x-3/2)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=4</mrow>
+                      <mrow>y=-4</mrow>
+                    </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{-54t}{\sqrt{4-9t}}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=32</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+          </solution>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <alert>Curve:</alert>  <m>\frac{x^2}{9} + \frac{y^2}{16}=1</m>
+            </p>
+            <p>
+              <alert>Horizontal position:</alert> <m>x=t^{\frac32} </m>
+            </p>
+            <p>
+              <alert>Points:</alert> 
+              <md>
+                <mrow>t=1,</mrow>
+                <mrow>t=0</mrow>
+              </md>
+            </p>
+          </statement>
+          <solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=1</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y-\frac{3\sqrt{3}}{2}=-\frac{3}{2\sqrt{3}}(x-1)</mrow>
+                      <mrow>y+\frac{3\sqrt{3}}{2}=\frac{3}{2\sqrt{3}}(x-1)</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=3</mrow>
+                      <mrow>y=-3</mrow>
+                    </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{-27t^2}{12\sqrt{4-t^{3/2}}}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=\frac{3\sqrt{t}}{2}</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+          </solution>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <alert>Curve:</alert> <m>y^2=x^3-x+1 </m>
+            </p>
+            <p>
+              <alert>Horizontal position:</alert> <m> x=t </m>
+            </p>
+            <p>
+              <alert>Points:</alert>
+              <md>
+                <mrow>t=0,</mrow>
+                <mrow>t=1,</mrow>
+              </md>
+            </p>
+          </statement>
+          <solution>
+          <p>
+            <dl>
+              <li><title>Tangent Lines</title>
+              <p>
+                <dl>
+                  <li><title><m>t=0</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=x+2</mrow>
+                      <mrow>y=-x-2</mrow>
+                    </md>
+                  </p>
+                  </li>
+                  <li><title><m>t=1</m>:</title>
+                  <p>
+                    <md>
+                      <mrow>y=-\frac12x+1</mrow>
+                      <mrow>y=\frac12x-1</mrow>
+                    </md>
+                  </p>
+                  </li>
+                </dl>
+              </p>
+              </li>
+              <li><title>Velocities</title>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      <m>
+                      \dfdx{y}{t}=\frac{3(t-1)^2-1}{2\sqrt{(t-1)^3-(t-1)+1}}
+                      </m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <m>\dfdx{x}{t}=1</m>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              </li>
+            </dl>
+          </p>
+          </solution>
+        </exercise>
+      </exercisegroup>
+      <!-- <exercise> -->
+      <!--   <statement> -->
+      <!--     <p> -->
+      <!--       <alert>Curve:</alert> <m>x^3+y^3=3xy </m> -->
+      <!--     </p> -->
+      <!--     <p> -->
+      <!--     <alert>Horizontal position: </alert><m>x=t </m> -->
+      <!--     </p> -->
+      <!--     <p> -->
+      <!--       <alert>Points:</alert> -->
+      <!--       <md> -->
+      <!--         <mrow>x=0, \text{Careful!}</mrow> -->
+      <!--         <mrow>x=,</mrow> -->
+      <!--         <mrow>x= </mrow> -->
+      <!--       </md> -->
+      <!--     </p> -->
+      <!--   </statement> -->
+      <!--   <solution> -->
+      <!--       <p> -->
+      <!--         <m> -->
+      <!--         </m> -->
+      <!--       </p> -->
+      <!--     </solution> -->
+      <!-- </exercise> -->
+      <!-- <exercise> -->
+      <!--   <statement> -->
+      <!--     <p> -->
+      <!--       <alert>Curve:</alert> <m>y^2=x^3-x+1, </m> -->
+      <!--     </p> -->
+      <!--     <p> -->
+      <!--     <alert>Horizontal position: </alert><m> x=t^2 </m> -->
+      <!--     </p> -->
+      <!--     <p> -->
+      <!--       <alert>Points:</alert> -->
+      <!--       <md> -->
+      <!--         <mrow>x  =-1,</mrow> -->
+      <!--         <mrow>x  =0,</mrow> -->
+      <!--         <mrow>x  = 1</mrow> -->
+      <!--       </md> -->
+      <!--     </p> -->
+      <!--   </statement> -->
+      <!--   <solution> -->
+      <!--       <p> -->
+      <!--         <m> -->
+      <!--         </m> -->
+      <!--       </p> -->
+      <!--     </solution> -->
+      <!-- </exercise> -->
+
+<exercisegroup><title> Word Problems</title>
+<exercise>
+<!-- <figure> -->
+<!--       <caption> -->
+<!--           Use this Desmos interface to visualize the problem. -->
+<!--       </caption> -->
+<!--         <interactive desmos="1glh9qdqno" width="100%" aspect="2:1" /> -->
+<!--     </figure> -->
+<introduction>
+<p>
+A human being who is <m>h</m> feet tall is walking away from a streetlamp that is <m>l</m> feet tall  at <m>v</m> feet per second. Find the rate at which the length of the human's shadow is increasing if:
+</p>
+</introduction>
+<task>
+<statement>
+<p>
+<m>h=10</m>, <m>l=5</m>, and <m>v=2</m>.
+</p>
+</statement>
+</task>
+<task>
+<statement>
+<p>
+<m>h=17</m>, <m>l=6</m>, and <m>v=7</m>.
+</p>
+</statement>
+</task>
+<task>
+<statement>
+<p>
+<m>h=20</m>, <m>l=4</m>, and <m>v=10</m>.
+</p>
+</statement>
+</task>
+<task>
+<statement>
+<p>
+<m>h=h</m>, <m>l=l</m>, and <m>v=v</m>.
+</p>
+</statement>
+</task>
+</exercise>
+<exercise>
+<introduction>
+<p>
+A ladder <m>10</m> feet long is leaning against a vertical wall. The
+base of the ladder rests on a moving  cart. The position of the cart
+at time <m>t</m>
+is given by the function <m>P(t)=4+2\cos(t)</m>.
+</p>
+<p>
+  How fast, and which direction is the top of the ladder moving when:
+</p>
+</introduction>
+<task>
+  <statement>
+<p>
+    <m>t=0</m>
+</p>
+  </statement>
+</task>
+<task>
+    <statement>
+<p>
+      <m>t=\frac{\pi}{6}</m>
+</p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+<p>
+      <m>t=\frac{2\pi}{3}</m>
+</p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+<p>
+      <m>t=\pi</m>
+</p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+<p>
+      <m>t=-\frac{\pi}{3}</m>
+</p>
+    </statement>
+  </task>
+</exercise>
+</exercisegroup>
+</exercises>
+  </section>
+  <!-- Local Variables: -->
+  <!-- mode: ptx  -->
+  <!-- mode: auto-fill t -->
+  <!-- eval: (load-file "macros.el") -->
+  <!-- End: -->
+
+

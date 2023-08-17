@@ -1,0 +1,312 @@
+<section>
+  <title>Derivatives of Inverse Trig Functions  </title>
+<p></p>
+  <exercises><title></title>
+    <exercisegroup cols="3">
+      <introduction>
+        <p>
+          Compute the derivative of each of the following functions:
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sin (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-1}{x\sqrt{x^2-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cos (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{1}{x\sqrt{x^2-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\tan (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-1}{1+x^2}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cot (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{1}{1+x^2}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sec (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-1}{\sqrt{1-x^2}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\csc (1/x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{1}{\sqrt{1-x^2}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sin\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac12\dfrac{1}{\sqrt{x-x^2}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cos\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = -\dfrac12\dfrac{1}{\sqrt{x-x^2}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\tan\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{1}{2(x^{1/2}-x^{3/2})}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cot\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-1}{2(x^{1/2}-x^{3/2})}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sec\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{1}{2x\sqrt{x-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\csc\left( \sqrt{x}\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-1}{2x\sqrt{x-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sin\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{2x}{\sqrt{1-x^4}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cos\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-2x}{\sqrt{1-x^4}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\tan\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{2x}{{1+x^4}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\cot\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-2x}{{1+x^4}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\sec\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{2}{x\sqrt{x^4-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>y=\inverse\csc\left( x^2\right)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m> \dfdx{y}{x} = \dfrac{-2}{x\sqrt{x^4-1}}</m>
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+
+    <exercise>
+      <introduction>
+        <p>
+          Show that the derivative of each of the following functions is as
+          given.
+        </p>
+      </introduction>
+      <task>
+        <p>
+          <m>y= x\inverse\cos(x)-\sqrt{1-x^2};</m>
+          <m>\displaystyle\frac{dy}{dx} =\inverse\cos(x)</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>y= x\sqrt{1-x^2}+\inverse\cos(x);</m>
+          <m>\frac{dy}{dx}=\frac{-2x^2}{\sqrt{1-x^2}}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>y= \inverse\tan\left(\sqrt{x^2-1}\right)+\inverse\csc(x);</m>
+          <m>\displaystyle\frac{dy}{dx}=0</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>y= \inverse\cot\left(\frac1x\right)+\inverse\tan(x);</m>
+          <m>\displaystyle\frac{dy}{dx}=\frac{2}{1+x^2}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>y= x\inverse\sin(x)+\sqrt{1-x^2};</m>
+          <m>\displaystyle\frac{dy}{dx}=\inverse\sin(x)</m>
+        </p>
+      </task>
+    </exercise>
+
+
+    <exercise>
+      <title>
+        Unusual Pairs of Functions 
+      </title>
+      <introduction>
+        <p>
+          Show that the following pairs of functions differ by a constant value
+          regardless of the value of <m>x</m>. In each case, find the
+          constant.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>f(x)= \inverse\sin\left(\frac{x-1}{x+1}\right)</m> and
+            <m>g(x)=2\inverse\tan\left(\sqrt{x}\right)</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Recall that "<m>f(x)</m> and <m>g(x)</m> differ by a
+            constant" means that <m>f(x)-g(x)</m> is a constant. What is
+            the derivative of a constant?
+          </p>
+        </hint>
+      </task>
+      <task>
+        <p>
+          <m>f(x)= \inverse\sin\left(\frac{1}{\sqrt{x^2+1}}\right)</m> and
+          <m>g(x)=\inverse\tan\left(\frac{1}{x}\right)</m>.
+        </p>
+      </task>
+    </exercise>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

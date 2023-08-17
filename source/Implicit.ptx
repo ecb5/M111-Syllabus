@@ -1,0 +1,312 @@
+<section>
+  <title> Implicit Differentiation </title>
+      
+<exercises><title>More Tangent Lines</title>
+      <exercisegroup cols="3">
+        <introduction>
+    <figure><title></title>
+      <interactive desmos="62fh8p0t3z"
+                width="150%" aspect="2:1" />
+      <caption> To check your work graph the curve, the point of tangency, and  your line on the axes above.</caption>
+    </figure>
+          <p>
+            Find an equation of the line tangent to the graph of each
+            equation at each of the indicated points.
+          </p>
+          <p>
+            In some cases there  is more more than one tangent line.
+          </p>
+        </introduction>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x^2+y^2=16</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>(0,4)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(0,-4)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(4,0)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(-4,0)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(2,2\sqrt{3})</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(2,-2\sqrt{3})</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(2\sqrt{3},2)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(-2\sqrt{3},2)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x^2-y^2=9</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>x=0</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=3</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=-3</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=2</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=-2</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=2</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=-2</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x^2-y^2=-9</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>x=3</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=-3</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=4</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>x=-4</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=4</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=-4</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=5</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>y=-5</m>
+            </p>
+          </task>
+        </exercise>
+        <!-- <exercise> -->
+        <!--   <m>2x^2-8y^2=8</m> -->
+        <!-- </exercise> -->
+        <!-- <exercise>           -->
+        <!--   <m>2x^2-8y^2=-8</m> -->
+        <!-- </exercise> -->
+        <!-- <exercise> -->
+        <!--   <m>\sqrt{x}-3y^3=\sqrt{y}-3x^3</m> -->
+        <!-- </exercise> -->
+        <exercise>
+          <introduction>
+            <p>
+              <m>\dfrac{x^2y^5}{x^2y^3-1}=x-2/3</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>(0,-2/3)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(2,1)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m> x^3+y^3= 2xy</m> 
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>(1,1)</m>
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(0,0)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m> x^2+xy+y^2=7 </m> 
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>(2,1)</m> 
+            </p>
+          </task>
+          <task>
+            <p> <m>(1,2)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x^4-x^2y^2+y^4=1  </m> 
+            </p>
+          </introduction>
+          <task>
+            <p> 
+              <m>(-1,1)</m> 
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>(1,-1)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m> (x^2+y^2)^2=\frac{25}{4}x^2y^2 </m> 
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>(1,2)</m>
+            </p>
+          </task>
+          <task> 
+            <p>
+              <m>(2,1)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m> x+y^3-y=1 </m> 
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>x=1</m> 
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>\sin(y)+5x=xy^2</m> 
+            </p>
+          </introduction>
+          <task>
+            <p> 
+              <m>(0,0)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x\cos(y)=y\cos(x)-\frac{\pi}{2\sqrt{2}}</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>\left(\frac{\pi}{4},\frac{\pi}{2}\right)</m> 
+            </p>
+          </task>
+          <task>
+            <p>
+              <m>\left(-\frac{\pi}{4},\frac{\pi}{2}\right)</m>
+            </p>
+          </task>
+        </exercise>
+        <exercise>
+          <introduction>
+            <p>
+              <m>x=y^3-3y</m>
+            </p>
+          </introduction>
+          <task>
+            <p>
+              <m>x=0</m> 
+            </p>
+          </task>
+        </exercise>
+      </exercisegroup>
+</exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

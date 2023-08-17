@@ -1,0 +1,307 @@
+<section>
+  <title> The First Derivative Test  </title>
+<p></p>
+<exercises>
+  <exercisegroup cols="3">
+    <introduction>
+      <p>
+        Indentify all intervals where the given curve is increasing,
+        and where it is decreasing.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac{7}{x^2+5}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty, 0)</m>
+        </p>
+        <p>
+          Decreasing: <m> (0, \infty)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=4-x^3</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Decreasing: <m> (-\infty, 0)\cup(0,\infty)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac1x</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Decreasing: <m>(-\infty,0)\cup(0,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=-\frac1x</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,0)\cup(0,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac{1}{\abs{x}}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,0) </m>
+        </p>
+        <p>
+          Decreasing: <m>(0,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt[3]{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=-3x^{2/3}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,0) </m>
+        </p>
+        <p>
+          Decreasing: <m>(0,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sec\theta</m>,on the interval
+          <m>(0,2\pi)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m> (0,\pi)</m>
+        </p>
+        <p>
+          Decreasing: <m> (\pi,2\pi)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x+\ln(x)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x+\frac1x</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,-1)\cup(1,\infty) </m>
+        </p>
+        <p>
+          Decreasing: <m>(-1,0)\cup(0,1) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x+\frac{1}{\ln(x)}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(2, \infty) </m>
+        </p>
+        <p>
+          Decreasing: <m>(0,1)\cup(1,2) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac{1}{x}+\ln(x)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(1,\infty) </m>
+        </p>
+        <p>
+          Decreasing: <m>(0,1) </m>
+        </p>
+      </solution>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=e^{-x^2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-\infty,0) </m>
+        </p>
+        <p>
+          Decreasing: <m>(0,\infty) </m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\frac{x}{x^2-x+1}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-1,1) </m>
+        </p>
+        <p>
+          Decreasing: <m>(-\infty,-1)\cup(1,\infty)</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=2\cos x+\sin 2x</m> on the interval
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Increasing: <m>(-1,\pi/6)\cup(5\pi/6,\pi) </m>
+        </p>
+        <p>
+          Decreasing: <m> (-\pi,-1)\cup(\pi/6,5\pi/6)</m>
+        </p>
+      </solution>
+    </exercise>
+  </exercisegroup>
+
+  <figure>
+    <interactive desmos="xlit0cc7vm"
+                 width="150%" aspect="2:1" />
+  </figure>
+
+  <exercisegroup cols="6">
+    <introduction>
+      <p>
+        Find the coordinates of the absolute maximum (global) and the
+        absolute (global) minimum of each function in the indicated
+        interval.
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt{x}\cdot\sqrt[3]{1-x},\ \ [0,1]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt{x^3}\cdot\sqrt[3]{1-x},\ \ [0,1]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=\sqrt{x}\cdot\sqrt{(1-x)^2},\ \ [0,1]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^a(1-x)^b, \ \ [0,1]</m> 
+        </p>
+        <p>
+          (Assume <m>a</m> and <m>b</m> are positive.)
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^3-2x^2+x\ \ [-1,1]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^4-2x^3+x^2\ \ [-1/2,2]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=-x^4+3x^3-3x^2+x,\ \ [0,2]</m>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle y=x^4-3x^3+3x^2-x,\ \ [0,2]</m>
+        </p>
+      </statement>
+    </exercise>
+  </exercisegroup>
+</exercises>
+</section>
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

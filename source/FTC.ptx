@@ -1,0 +1,581 @@
+<section>
+  <title> The Fundamental Theorem of Calculus  </title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="3">
+      <title>Area problems</title>
+      <introduction>
+        <p>
+          Evaluate each of the following integrals <em>by interpreting it as an
+          area.</em> (That is, <term>don't </term> compute an antiderivative.)
+        </p>
+      </introduction>
+
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{2}x\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            2 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{-2}^{2}x\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            0 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{5}3x+2\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{95}{2}</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{-2}^{5}3x+2\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{91}{2}</m>  
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{-3}^{0}\abs{x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{9}{2}</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{3}\abs{x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{9}{2}</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{-3}^{3}\abs{x}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            9 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{-2}^{3}\abs{x+1}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{17}{2}</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{4}\sqrt{4-(x-2)^2}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>2\pi</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{2}\sqrt{4-(x-2)^2}\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\pi</m> 
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+    
+    <exercisegroup cols="3">
+      <introduction>
+        <p>
+          Use the Fundamental Theorem of Calculus to compute each of the
+          following. (That is, this time <term>do</term> compute an
+          antiderivative.) 
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>  \displaystyle \int_0^2x^3\dx{x}</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 4 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{2} 3x^2+2x\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 12 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{1}x+\sqrt{x} \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac76 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{\pi/4} 2\cos(x)\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \sqrt{2} </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{1}^{9}\frac{2}{\sqrt{x}} \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 8 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{4}^{9} \frac{2+\sqrt{x}}{x}\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 4\ln\left(\frac32\right)+2 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{\ln(8)} e^x\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>  </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{1/2}^{1} x^{-3}-8 \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>  </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{2}x(x-2) \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> -4/3 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{2}^{4} (x-2)(x-4) \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> -4/3 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{1}^{4} (1-x)(x-4)\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 9/2 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{\pi/4} \sec^2(x)\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>  1</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{1}^{2} \frac3x\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>  \ln(8)</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{0}^{1/2} \frac{1}{\sqrt{1-x^2}}\dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{\pi}{6} </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \int_{1}^{\sqrt{3}}\frac{1}{1+x^2} \dx{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{\pi}{12} </m>
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup cols="3">
+      <introduction>
+        <p>      Use the Fundamental Theorem of Calculus to compute each of the
+        following <term>derivatives</term>:
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{3}^{x} t^2+t+1\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            If this isn't incredibly obvious to you, then you've
+            missed the point of the <term>Fundamental Theorem of
+            Calculus.</term> You should look it up and be sure you understand
+            it before you go on.
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{0}^{x} e^t\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution><p>If this isn't incredibly obvious to you, then you've
+        missed the point of the <term>Fundamental Theorem of
+        Calculus.</term> You should look it up and be sure you understand
+        it before you go on.</p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{x^2}^{10}\frac{1}{t^2+1}\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution><p><m> \dfrac{-2x}{x^4+1} </m></p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{2}^{x^2}\frac{1}{t^2}\right)</m>
+          </p>
+        </statement>
+        <solution><p><m>  \dfrac{2}{x^3}</m></p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{x}^{1}
+            \sqrt{t^4+1}\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution><p><m> -\sqrt{x^4+1}</m></p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{-x}^{x}
+            \sqrt{1+t^2}\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution><p><m> 2\sqrt{1+x^4}</m></p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{e^x}^{e^{-x}}
+            \ln(t^2)\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution><p><m> 2x(e^x+e^{-x}) </m></p></solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\displaystyle \dfdx{}{x}\left(\int_{x}^{2x}t^{-1}\dx{t}\right)</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \dfdx{}{x}\left(\int_{x}^{2x}t^{-1}\dx{t}\right)=0</m>
+          </p>
+          <aside>
+            <p>
+              The <em>derivative</em> is zero? The <em>derivative</em>? Really!?
+            </p>
+            <p>
+              What does that tell you about <m>
+              \int_{x}^{2x}t^{-1}\dx{t}</m>?
+            </p>
+          </aside>
+        </solution>
+      </exercise>
+    </exercisegroup>
+
+    <exercise><title>Properties of Integrals</title>
+    <introduction>
+      <p>
+        Suppose that 
+        <md>
+          <mrow>\displaystyle\int_1^4f(x)\dx{ x} = 8</mrow> 
+        </md>
+        and
+        <md>
+          <mrow>\displaystyle\int_1^6f(x)\dx{x}= 5.</mrow> 
+        </md>
+        Evaluate each of the following:
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>  \displaystyle \int_{1}^{4}-3f(x) \dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> -24 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>  \displaystyle \int_{1}^{4} 7f(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> 56 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m> \displaystyle \int_{4}^{6}  5f(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>  65</m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>  \displaystyle \int_{6}^{4}  12f(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> 36 </m>
+        </p>
+      </solution>
+    </task>
+    </exercise>
+
+    <exercise><title>Properties of Integrals</title>
+    <introduction>
+      <p>
+        Given that 
+        <md>
+          <mrow>\displaystyle\int_0^3f(x)\dx{x}=2,\amp\amp \int_3^6f(x)\dx{x}=-5,\amp </mrow>
+          <mrow>\displaystyle\int_3^6g(x)\dx{x}=1,\amp\amp  \int_0^6f(x)+g(x)\dx{x} = 8,</mrow>
+        </md>
+        evaluate each of the following integrals:
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\int_{0}^{3}5f(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> 10 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\int_{3}^{6}-3g(x)\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> -3 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\int_{3}^{6}(3f(x)-g(x))\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> -16 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\int_{6}^{3}(f(x)+2g(x))\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> 3 </m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle\int_{6}^{0}(2f(x)-4g(x))\dx{x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>  50</m>
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_0^3g(x)\dx{x}.</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m> 10 </m>
+        </p>
+      </solution>
+    </task>
+    </exercise>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

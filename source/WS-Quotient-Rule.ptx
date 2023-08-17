@@ -1,0 +1,79 @@
+<worksheet>
+  <title> The Quotient Rule </title>
+  <exercisegroup>
+    <exercise>
+      <p>
+        Compute <m>\dfdx{y}{x}</m> for each of the following:
+      </p>
+      <ol cols="2" marker="(a)">
+        <li>
+          <m>y=\dfrac{1}{x+2}</m>
+        </li>
+        <li>
+          <m>y=\dfrac{x+3}{x+2}</m>
+        </li>
+        <li>
+          <m>y=\dfrac{3x+7}{x+2}</m>
+        </li>
+        <li>
+          <m>y=\dfrac{5x+11}{x+2}</m>
+        </li>
+      </ol>
+      Now compute the derivative of <m>y=\dfrac{7x+13}{x+2}.</m> Why is this
+      one different?
+    </exercise>
+
+    <exercise>
+      <p>
+        Compute $\dfdx{y}{x}$ for each of the following ($a$ and $b$ are constants):
+      </p>
+      <ol cols="2" marker="(a)">
+        <li>
+          <m>f(x)=\dfrac{1}{x+1}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x+1)(x+2)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x+3)(x+4)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x+5)(x+7)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x+a)(x+b)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x+a)(x+b)(x+c)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{x-1}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x-1)(x-2)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x-3)(x-4)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x-5)(x-7)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x-a)(x-b)}</m>
+        </li>
+        <li>
+          <m>f(x)=\dfrac{1}{(x-a)(x-b)(x-c)}</m>
+        </li>
+      </ol>
+    </exercise>
+
+  </exercisegroup>
+</worksheet>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

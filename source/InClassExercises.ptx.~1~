@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  
+  <docinfo>
+    <macros>
+      \def\dx#1{\thinspace\text{d}#1}
+      \def\abs#1{\left|#1\right|}
+      \def\dfdx#1#2{\frac{\text{d}{#1}}{\text{d}{#2}}} 
+      \def\dfdxn#1#2#3{\frac{\text{d}^{#3}{#1}}{\text{d}{#2}^{#3}}} 
+      \def\inverse#1{#1^{-1}}
+      \def\limit#1#2#3{{\displaystyle\lim_{#1\rightarrow #2}#3}}
+      \def\eval#1#2#3{{\left.#1\right|_{#2=#3}}}
+    </macros>
+
+    <latex-image-preamble>
+      \usepackage{amsmath}
+      \usepackage{multicol}
+      \usepackage{enumitem}
+      \usepackage{lipsum}
+      
+      <!-- \include{bltmac} -->
+      \usepackage{amsmath}
+      \usepackage{multicol}
+      \usepackage{enumitem}
+      \usepackage{lipsum}
+    </latex-image-preamble>
+    
+  </docinfo>
+  
+  <article xml:id="ICE">
+    <title>On-line Exercises</title>
+    <!-- <frontmatter> -->
+    <!-- </frontmatter> -->
+
+
+      <!-- <xi:include href="./Fermat.ptx" /> -->
+      <xi:include href="./LimitsAtInfinity.ptx" />
+      <xi:include href="./LimitsAtAPoint.ptx" />
+      <xi:include href="./BasicDifferentiation.ptx" />
+      <xi:include href="./ChainRule.ptx" />
+      <xi:include href="./Tangents.ptx" />
+      <xi:include href="./RelatedRates.ptx" />
+      <xi:include href="./Velocities.ptx" />
+      <xi:include href="./TrigDerivs.ptx" />
+      <!-- <!-\- <xi:include href="./IVPs.ptx" /> -\-> -->
+      <xi:include href="./InvTrig.ptx" />
+      <xi:include href="./NewtonsMethod.ptx" />
+      <xi:include href="./ExpLogDeriv.ptx" />
+      <xi:include href="./Implicit.ptx" />
+      <xi:include href="./FDTest.ptx" />
+      <xi:include href="./MaxMin.ptx" />
+      <xi:include href="./Concavity.ptx" />
+      <xi:include href="./Optimization.ptx" />
+      <xi:include href="./OptimizationExperimental.ptx" />
+      <xi:include href="./LimitsAtInfinity.ptx" />
+      <xi:include href="./LHopital.ptx" />
+      <xi:include href="./FTC.ptx" />
+      <xi:include href="./Substitution.ptx" />
+      <xi:include href="./Volumes.ptx" />
+  </article>
+</pretext>
+
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+

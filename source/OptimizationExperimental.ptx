@@ -1,0 +1,118 @@
+<section>
+  <title> Optimization  (Experimental)</title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="2">
+      <title>
+        Pens
+      </title>
+      <introduction>
+        <p>
+          You have <m>500</m> meters of fencing with which to build a pen.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            What is the largest area you can enclose with a
+            freestanding rectangular pen?
+          </p>
+        </statement>
+        <!-- <solution> -->
+        <!--     <p> -->
+
+        <!--     </p> -->
+        <!-- </solution> -->
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            You wish to use one side of a building in place of one side of your
+            pen. What is the largest area you can enclose this time?
+          </p>
+          <image source="Corral1.png" width="65%">
+          </image>
+        </statement>
+        <!-- <solution> -->
+        <!--     <p> -->
+
+        <!--     </p> -->
+        <!-- </solution> -->
+      </exercise>
+
+      <!-- <exercise> -->
+      <!--   <statement> -->
+      <!--     <p> -->
+      <!--       You want to build your pen as seen in the sketch: -->
+      <!--       <image source="Corral3.png" width="65%"> -->
+      <!--       </image> -->
+      <!--       What is the largest area you can enclose this time? -->
+      <!--     </p> -->
+      <!--   </statement> -->
+      <!--   <!-\- <solution> -\-> -->
+      <!--   <!-\-     <p> -\-> -->
+
+      <!--   <!-\-     </p> -\-> -->
+      <!--   <!-\- </solution> -\-> -->
+      <!-- </exercise> -->
+
+      <!-- <exercise> -->
+      <!--   <statement> -->
+      <!--     <p> -->
+      <!--       You want to build your pen as seen in the sketch: -->
+      <!--       <image source="Corral4.png" width="65%"> -->
+      <!--       </image> -->
+      <!--       What is the largest area you can enclose this time? -->
+      <!--     </p> -->
+      <!--   </statement> -->
+      <!--   <!-\- <solution> -\-> -->
+      <!--   <!-\-     <p> -\-> -->
+
+      <!--   <!-\-     </p> -\-> -->
+      <!--   <!-\- </solution> -\-> -->
+      <!-- </exercise> -->
+
+      <exercise>
+        <statement>
+          <p>
+            You want to build your pen as seen in the sketch:
+            <image source="Corral5.png" width="65%">
+            </image>
+            What is the largest area you can enclose this time?
+          </p>
+        </statement>
+        <!-- <solution> -->
+        <!--     <p> -->
+
+        <!--     </p> -->
+        <!-- </solution> -->
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            You want to build your pen as seen in the sketch:
+            <image source="Corral6.png" width="65%">
+            </image>
+            What is the largest area you can enclose this time?
+          </p>
+        </statement>
+        <!-- <solution> -->
+        <!--     <p> -->
+
+        <!--     </p> -->
+        <!-- </solution> -->
+      </exercise>
+    </exercisegroup>
+  </exercises>
+</section>
+
+
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- End: -->
+
+
+

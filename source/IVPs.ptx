@@ -1,0 +1,442 @@
+<section>
+  <title> Antiderivatives, and Initial Value Problems (IVPs)   </title>
+  <p></p>
+  <exercises>
+    <exercisegroup cols="3">
+      <title>Antiderivatives</title>
+      <introduction>
+        <p>
+          Compute the antiderivative of each of the following.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p>
+            <m> 1 </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> x+C</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> x </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{x^2}{2}+C</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> 2x </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> x^2+C</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>x^2 </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{x^3}{3}+C</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>x^4+1 </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{x^5}{5} +x+ C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> 2x^2-x+5</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{2x^3}{3}-\frac{x^2}{2} +5x + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>2\sqrt{x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{4\sqrt{x^3}}{3} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\sqrt{2x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{\sqrt{8x^3}}{3} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\frac{1}{x^2} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{-1}{x} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> \sin(x) </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> -\cos(x) + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\cos(x) </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\sin(x)+C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\sin(2x) </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{-\cos(2x)}{2} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> \cos(\sqrt{3}x)</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{\sin(\sqrt{3}x)}{3} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>5x^2-7\sin(x) </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{5x^3}{3}-cos(x) + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>e^x </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>e^x + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>e^{2x} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{e^{2x}}{2} + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m> e^x+\sec^2(x) </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> e^x+\tan(x) + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\frac{1}{1+x^2} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\tan(x) + C </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <m>\frac{3}{\sqrt{1-x^2}} </m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> 3\inverse\sin(x) + C </m>
+          </p>
+        </solution>
+      </exercise>
+
+    </exercisegroup>
+
+    <exercisegroup cols="3">
+      <title>IVPs</title>
+      <introduction>
+        <p>
+          Solve each of the following Initial Value Problems (IVPs).
+        </p>
+      </introduction>
+
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = 1</mrow>
+              <mrow> y(0)\amp =1 </mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            y=x+1 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = x</mrow>
+              <mrow> y(0)\amp = 5</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{x^2}{2}+5</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = x</mrow>
+              <mrow> y(1)\amp = 5</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{x^2}{2}+\frac92</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = x</mrow>
+              <mrow> y(5)\amp = 1</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> \frac{x^2}{2}+\frac{-23}{2}</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle  \dfdx{y}{x}\amp =  2x^2-x+5</mrow>
+              <mrow> y(0)\amp =1 </mrow>
+            </md>
+          </p>
+        </statement>
+        <solution> 
+          <p>
+            <m>\frac{2x^3}{3}-\frac{x^2}{2} +5x + 1 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = 2x-7</mrow>
+              <mrow> y(0)\amp = 1</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>y(x)=x^2-7x+1</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = \frac{1}{2\sqrt{x}}</mrow>
+              <mrow> y(0)\amp = 2</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution> 
+          <p>
+            <m> 4\sqrt{x}+2</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = \frac{1}{2\sqrt{x}}</mrow>
+              <mrow> y(4)\amp = 2</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution> 
+          <p>
+            <m> 4\sqrt{x}-6</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = 1+\cos(x)</mrow>
+              <mrow> y(0)\amp = 4</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>y(x)=x+\sin(x)+4 </m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = 1+\sin(x)</mrow>
+              <mrow> y(0)\amp = 4</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p> 
+            <m>y(x)=x-\cos(x)+5 </m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = \cos(\pi x)</mrow>
+              <mrow> y(0)\amp = 1</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>y(x)= \frac{1}{\pi}\sin(\pi x) + 1</m> 
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            <md>
+              <mrow>\displaystyle \dfdx{y}{x}\amp = \cos(\pi x)</mrow>
+              <mrow> y(1/2)\amp = 1</mrow>
+            </md>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>y(x)= \frac{1}{\pi}\sin(\pi x) +
+            \frac{\pi-1}{\pi}</m> 
+          </p>
+        </solution>
+      </exercise>
+    </exercisegroup>
+  </exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+
+

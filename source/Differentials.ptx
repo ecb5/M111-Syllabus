@@ -1,0 +1,356 @@
+<section>  <title>  Differentials </title>
+<p></p>
+<exercises><title></title>
+<exercisegroup cols="3">
+  <introduction>
+    <p>
+      Compute <m>\dx{y}</m> in terms of the other variables and
+      differentials in each of the following:
+    </p>
+  </introduction>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=3x-2z</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}=3\dx{x}-2\dx{z}</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=4.9x^2+15x+6</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 9.8x\dx{x}+15\dx{x}</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=3.14</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 0</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=3.1416</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 0</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\pi</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 0</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=x^2-2x</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 2x\dx{x}-2\dx{x}</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\dfrac{x^2-2x}{x}</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \dx{x}</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=3(x^3-4x+2)</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 9x^2 \dx{x} -12 \dx{x}  </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=x^2-\sqrt{x}</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(2x-\dfrac{1}{2\sqrt{x}}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\dfrac{7x^5-3x^3+x^2}{x}</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(28x^3-6x^+1\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\dfrac{x}{x+1}</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(\dfrac{1}{(x+1)^2}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>y=xw</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m> \dx{y} = x \dx{w} +w \dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=(2x-1)(3x^3+5x^2-6x+7)</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}=
+        (2x-1)(9x^2+10x-6)\dx{x}+2(3x^3+5x^2-6x+7)\dx{x}</m>
+      </p>
+    </answer>
+
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\left(\sqrt[3]{x}\right)^2-\left(\sqrt{x}\right)^3</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(\frac23 x^{-1/3}=\frac32x^{1/2}\right)
+        \dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\left(\sqrt[3]{x}\right)^3-\left(\sqrt{x}\right)^2</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= 0</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>
+        y=\left(\dfrac{1}{x^2}+\dfrac{1}{x^4}\right)\left(x^2+x^4\right)</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(2x-2x^{-3}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\left(x^2+x^4\right)\left(x^{-2}+x^{-4}\right)</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(2x-\dfrac{2}{x^3}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <!-- <exercise> -->
+  <!--   <m> -->
+  <!--   y=\inverse{\left(x^2+x^3\right)}\left(x^{-2}+x^{-3}\right)</m> -->
+  <!--   <answer> -->
+  <!--     <p> -->
+  <!--       <m>\dx{y}= </m> -->
+  <!--     </p> -->
+  <!--   </answer> -->
+  <!-- </exercise> -->
+  <exercise>
+    <statement>
+      <p>
+        <m> y=x+z+w</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \dx{x}+\dx{y}+\dx{w} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> y=\dfrac{x^3-1}{x-3}</m>
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Can you find a way to use the Product Rule?
+      </p>
+    </hint>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(\dfrac{2x^3-9x^2+1}{(x-3)^2}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>x=5y^2+2y-3</m>
+      </p>
+    </statement>
+    <hint>
+      <p>
+        <em>Careful!!</em>
+      </p>
+    </hint>
+    <answer>
+      <p>
+        <m>\dx{y}= \left(\dfrac{1}{10y+2}\right)\dx{x} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> x^2+y^2=1</m>
+      </p>
+    </statement>
+    <answer>            
+      <p>
+        <m>\dx{y}= -\left(\dfrac{x}{y}
+        \right)\dx{x} </m>
+      </p>
+    </answer>
+
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> x^2+y^2+z^2=1</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= -\dfrac{x \dx{x} + z \dx{z}}{y} </m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> xy^2=z^3</m>
+      </p>
+    </statement>
+    <answer>            
+      <p>
+        <m>\dx{y}= \dfrac{3z^2 \dx{z} -y^2 \dx{x}  }{2xy}</m>
+      </p>
+    </answer>
+
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>xyz=2</m>
+      </p>
+    </statement>
+    <answer>            
+      <p>
+        <m>\dx{y}= \dfrac{- xy \dx{z}- yz \dx{x}}{xz}  </m>
+      </p>
+    </answer>
+
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m> (ct)^2-x^2-y^2-z^2=k^2,</m>
+        where <m>c</m> and <m>k</m> are
+        constants. <remark>This equation appears in relativity theory.</remark>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\dx{y}= \dfrac{x \dx{x} +z \dx{z} -c^2t \dx{t} }{y}</m>
+      </p>
+    </answer>
+  </exercise>
+</exercisegroup>
+<exercise>
+  <statement>
+    <p>
+      Redo each of the  previous problems, but this time compute
+      the ratio: <m>\dfdx{y}{x}</m>.
+    </p>
+  </statement>
+</exercise>
+</exercises>
+</section>
+
+<!-- Local Variables: -->
+<!-- mode: xml -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
