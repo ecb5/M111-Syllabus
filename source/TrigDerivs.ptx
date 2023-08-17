@@ -621,6 +621,7 @@ Explain the difference between the two previous problems.
     <!--     </p> -->
     <!--   </answer> -->
     <!-- </exercise> -->
+</exercisegroup>
 
   <exercise><title>Variations on a Sine</title>
   <task>
@@ -650,7 +651,6 @@ Explain the difference between the two previous problems.
   </task>
   </exercise>
 
-</exercisegroup>
 </exercises>
 </section>
 

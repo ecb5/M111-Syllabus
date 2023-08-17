@@ -28,13 +28,9 @@
   Because this course is about understanding and applying abstract
   concepts I design the quiz/exam problems to test your
   <alert>understanding</alert> not your ability to compute.  Such
-  problems will 
-<em>
-always
-</em>
-require you to <em>explain</em> the results of any
-  computations that you do, and the explanation is much more important
-  than the computation because that is where your level of
+  problems will always require you to <em>explain</em> the results of
+  any computations that you do, and the explanation is much more
+  important than the computation because that is where your level of
   understanding will be displayed.
 </p>
 <p>
@@ -108,7 +104,9 @@ response to this problem would be
 </blockquote>
 
 <p>
-Do you see why?
+In fact this is such a poor response that it would get a score of
+zero. If you don't see why please ask me in class. I'm sure you are
+not the only one.
 </p>
 
 </section>

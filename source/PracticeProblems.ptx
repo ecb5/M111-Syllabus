@@ -1,0 +1,35 @@
+<section xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="PracticeProblems">
+  <title>Practice Problems </title>
+  
+      <!-- <xi:include href="./Fermat.ptx" /> -->
+      <!-- <xi:include href="./LimitsAtInfinity.ptx" /> -->
+      <!-- <xi:include href="./LimitsAtAPoint.ptx" /> -->
+      <xi:include href="./BasicDifferentiation.ptx" />
+      <xi:include href="./ChainRule.ptx" />
+      <xi:include href="./Tangents.ptx" />
+      <!-- <xi:include href="./RelatedRates.ptx" /> -->
+      <xi:include href="./Velocities.ptx" />
+      <xi:include href="./TrigDerivs.ptx" />
+      <!-- <!-\- <xi:include href="./IVPs.ptx" /> -\-> -->
+      <xi:include href="./InvTrig.ptx" />
+      <xi:include href="./NewtonsMethod.ptx" />
+      <xi:include href="./ExpLogDeriv.ptx" />
+      <!-- <xi:include href="./Implicit.ptx" /> -->
+      <xi:include href="./FDTest.ptx" />
+      <xi:include href="./MaxMin.ptx" />
+      <xi:include href="./Concavity.ptx" />
+      <xi:include href="./Optimization.ptx" />
+      <xi:include href="./OptimizationExperimental.ptx" />
+      <xi:include href="./LimitsAtInfinity.ptx" />
+      <xi:include href="./LHopital.ptx" />
+      <xi:include href="./FTC.ptx" />
+      <xi:include href="./Substitution.ptx" />
+      <!-- <xi:include href="./Volumes.ptx" /> -->
+
+</section>
+<!-- Local Variables: -->
+<!-- mode: ptx-mode -->
+<!-- mode: auto-fill t -->
+<!-- eval: (load-file "macros.el") -->
+<!-- End: -->
+

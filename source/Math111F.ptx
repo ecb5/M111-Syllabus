@@ -4,10 +4,16 @@
   
   <docinfo>
     <macros>
+      \def\abs#1{\left|#1\right|}
+\def\dx#1{\thinspace{\mathrm d}#1}
+\def\d#1{\thinspace{\mathrm d}#1}
+\def\dfdx#1#2{\frac{\dx{#1}}{\dx{#2}}} 
+\def\inverse#1{#1^{-1}}
+\def\limit#1#2#3{{\displaystyle\lim_{#1\rightarrow #2}#3}}
     </macros>
 
     <latex-image-preamble>
-      <!-- \usepackage{amsmath} -->
+      \usepackage{amsmath}
       <!-- \usepackage{multicol} -->
       <!-- \usepackage{enumitem} -->
       <!-- \usepackage{lipsum} -->
@@ -34,6 +40,7 @@
     <xi:include href="./Grading.ptx"  />
     <xi:include href="./ContactNew.ptx"  />
     <xi:include href="./SemesterSchedule.ptx"  />
+    <xi:include href="./PracticeProblems.ptx"  />
     <!-- <xi:include href="./Contact.ptx"  /> -->
     <!-- <xi:include href="./TextHW.ptx"  /> -->
     <!-- <xi:include href="./OtherCrap.ptx"  /> -->
