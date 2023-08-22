@@ -18,4 +18,4 @@ evince:
 	evince ../output/print/Math140.pdf
 
 deploy:
-	/home/ecb5/.local/bin/pretext -u deploy
+	/home/ecb5/.local/bin/pretext deploy -u
