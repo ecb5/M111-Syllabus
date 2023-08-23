@@ -1,19 +1,6 @@
 <section><title>Grading Policies</title>
 <p>
   You can earn as many as 1000 points during this semester:
-<aside><title>Participation Score</title>
-<p>
-For example: Suppose  this  class is conducted <m>12</m> times. Then
-<m>C=12</m>. If you earned <m>2</m> points (this is the most you can
-earn) in <m>10</m> of them, and only <m>1</m> in the other two then <m>P=2\times 10 + 1\times 2=22</m>.
-
-</p>
-<p>
-In that case your participation score  is 
-<m>225\times\frac{P}{C}=412.5</m>.
-</p>
-
-</aside>
   <ul>
     <li>
       450 for Participation
@@ -33,25 +20,42 @@ In that case your participation score  is
   The grade you receive at the end of this semester will
   be computed as follows:
 </p>
+
 <p>
   Let <m>P</m> be the number of Participation points you earned, and let <m>C</m> be the number of days class is conducted. Then your participation score will be <m>225\times\frac{P}{C}</m>.
 </p>
 
-<aside><title>Quiz Score:</title>
+<example><title>Participation Score</title>
 <p>
-  If <m>3</m> quizzes are
-  given on which you got <m>2</m>, <m>7</m>, and <m>8</m> points then
-  <m>Q=\frac{2+7+8}{3}=5.6</m>.
+For example: Suppose  this  class is conducted <m>12</m> times. Then
+<m>C=12</m>. If you earned <m>2</m> points (this is the most you can
+earn) in <m>10</m> of them, and only <m>1</m> in the other two then <m>P=2\times 10 + 1\times 2=22</m>.
+
+</p>
+<p>
+In that case your participation score  is 
+<m>225\times\frac{P}{C}=412.5</m>.
+</p>
+
+</example>
+
+<p>
+  Let <m>Q</m> be the average of your quiz scores at the end of the
+  semester. Then your quiz score is <m>15Q</m>.
+</p>
+<example>
+
+<title>Quiz Scores</title>
+<p>
+For example, if <m>3</m> quizzes are given on which you got <m>2</m>,
+<m>7</m>, and <m>8</m> points then <m>Q=\frac{2+7+8}{3}=5.6</m>.
 
 </p>
 <p>
 In that case your quiz score is <m>15Q=84</m>.
-</p>
-</aside><p>
-  Let <m>Q</m> be the average of your quiz scores at the end of the
-  semester. Then your quiz score is <m>15Q</m>.
-</p>
 
+</p>
+</example>
 <p>
   Let <m>W</m> be the number of Webwork problems you solved and let
   <m>T</m> be the total number of Webwork problems available. Then

@@ -1,35 +1,47 @@
   <section><title>Exams and Quizzes</title>
 <subsection><title>Exams</title>
   <p>
-    There will be <m>2</m> exams given during the semester. See the course
-    schedule for the dates. Each exam will be on the material covered
-    since the last exam, and will contribute <m>50</m> points toward your
-    course grade.  The exam problems will most likely be taken from the
-    In Class Exercises, the textbooks, or the WeBWorK but this is not
-    guaranteed.
+    There will be <m>2</m> exams given during the semester; one near
+    the middle of the semester and the second at the end of the
+    semester during Final Exams week.<aside>
+<title>Exam Dates</title>
+<p>
+We will decide the date of the mid-semester exam later. We will make this decision together.
+</p></aside>
+ Each exam will be on the
+    material covered since the last exam, and will contribute
+    <m>50</m> points toward your course grade.  The exam problems will
+    most likely be taken from the Practice Problems, the textbook,
+    or the WeBWorK but this is not guaranteed.
   </p>
   <p>
     You can make up a missed exam during the first week after it
     was given for a score reduction of <m>10</m>%, and during the second
     week after it was given for a score reduction of <m>20</m>%. After
-    that, or if the semester ends before you make up an exam your
+    that your
     score on that exam will be <m>0</m>. The exams will contribute up to
     <m>100</m> points toward your grade in the course.
   </p>
 </subsection>
 <subsection><title>Quizzes</title> 
 <p>
-  There will be a quiz at the end of class <em>every</em> Thursday (the
-  first will be September <m>1</m>), except when exams are
+  There will be a quiz at the end of class <em>every</em> Wednesday, 
+<aside>
+<title>Week 1</title>
+<p>
+The
+  first week is a bit problematic since we only meet twice a week. We'll discuss how we will handle the first quiz on the first day of class.
+</p></aside>
+ except when exams are
   scheduled. Each quiz will be:
   <ul> 
-    <li> <m>15</m> minutes long, </li>
+    <li> <m>20</m> minutes long, </li>
     <li> worth <m>10</m> (quiz) points. </li> 
   </ul> 
-  The average of all of the quizzes will contribute 150 (course) points
-  toward your final course grade. There will be
-  <alert>no</alert> makeup quizzes for <alert>any</alert>
-  reason because the lowest quiz score will be dropped.
+  The average of all of the quizzes will contribute 150 (course)
+  points toward your final course grade. There will be no makeup
+  quizzes for any reason because the lowest quiz score will be
+  dropped.
 </p>
 </subsection>
   </section>
