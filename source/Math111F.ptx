@@ -38,7 +38,7 @@
     <xi:include href="./ExamsQuizzes.ptx" />
     <xi:include href="./TechUse.ptx"  />
     <xi:include href="./Grading.ptx"  />
-    <xi:include href="./ContactNew.ptx"  />
+    <xi:include href="./Contact.ptx"  />
     <xi:include href="./SemesterSchedule.ptx"  />
     <xi:include href="./PracticeProblems.ptx"  />
     <!-- <xi:include href="./Contact.ptx"  /> -->
