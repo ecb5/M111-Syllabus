@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.1",
   "title": "Meeting time, Office Hours, Books, etc.",
-  "body": " Meeting time, Office Hours, Books, etc.    Instructor  E. Boman, ecbpsu@gmail.com   Class time\/location   MW 11am -- 12:40am   Office Hours   MW 12:45pm -- 1:45pm, 005 Glatfelter Hall      Required Textbook    Differential Calculus: From Practice to Theory  , by Boman and Rogers   Course Prerequisites  No prerequisites. No prior experience with calculus is assumed. Students who have received credit for Mathematics 105-106 cannot also receive credit for Mathematics 111.     "
+  "body": " Meeting time, Office Hours, Books, etc.    Instructor  E. Boman, eboman@gettysburg.edu   Class time\/location   MW 11am -- 12:40am   Office Hours   MW 12:45pm -- 1:45pm, 005 Glatfelter Hall      Required Textbook    Differential Calculus: From Practice to Theory  , by Boman and Rogers   Course Prerequisites  No prerequisites. No prior experience with calculus is assumed. Students who have received credit for Mathematics 105-106 cannot also receive credit for Mathematics 111.     "
 },
 {
   "id": "subsection-2",
