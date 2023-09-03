@@ -40,18 +40,13 @@
     <xi:include href="./Grading.ptx"  />
     <xi:include href="./Contact.ptx"  />
     <xi:include href="./SemesterSchedule.ptx"  />
-    <xi:include href="./PracticeProblems.ptx"  />
-    <!-- <xi:include href="./Contact.ptx"  /> -->
-    <!-- <xi:include href="./TextHW.ptx"  /> -->
-    <!-- <xi:include href="./OtherCrap.ptx"  /> -->
-
- 
+    <xi:include href="./Videos.ptx"  />
+    <xi:include href="./PracticeProblems.ptx" />
 </article>
 </pretext>
 
 <!-- Local Variables: -->
 <!-- mode: ptx-mode -->
 <!-- mode: auto-fill t -->
-<!-- eval: (load-file "macros.el") -->
 <!-- End: -->
 

@@ -15,7 +15,7 @@ web: Makefile
 	/home/ecb5/.local/bin/pretext view web;
 
 evince:
-	evince ../output/print/Math140.pdf
+	evince ../output/print/Math111F.pdf
 
 deploy:
 	/home/ecb5/.local/bin/pretext deploy -u
