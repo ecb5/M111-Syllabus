@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10",
   "title": "Videos",
-  "body": "Videos       Method of Adequality   Speed vs. Velocity    "
+  "body": "Videos       Method of Adequality       Speed vs. Velocity    "
 },
 {
   "id": "section-12",
