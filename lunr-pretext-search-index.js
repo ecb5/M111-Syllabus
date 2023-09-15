@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10",
   "title": "Videos",
-  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution    "
+  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution    Slopes, Velocities, and Rates of Change    The Vomit Comet    Galileo and Falling Objects    "
 },
 {
   "id": "section-12",
