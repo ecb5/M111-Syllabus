@@ -1,0 +1,11 @@
+INFO    : PreTeXt project found in `/home/ecb5/Dropbox/Courses/M111F/Syllabus`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `/home/ecb5/Dropbox/Courses/M111F/Syllabus/output/web` at `/home/ecb5/Dropbox/Courses/M111F/Syllabus/output/stage`.
+INFO    : 
+INFO    : Deployment is now staged at `/home/ecb5/Dropbox/Courses/M111F/Syllabus/output/stage`.
+INFO    : Preparing to deploy from active `main` git branch.
+INFO    : 
+INFO    : Changes to project source since last commit detected.
+INFO    : Add/committing these changes to local Git repository.
+INFO    : 

@@ -1,0 +1,16 @@
+INFO    : PreTeXt project found in `/home/ecb5/Dropbox/Courses/M111F/Syllabus`.
+INFO    : Preparing to build into /home/ecb5/Dropbox/Courses/M111F/Syllabus/output/web.
+INFO    : discovering source file's directory name: /home/ecb5/Dropbox/Courses/M111F/Syllabus/source
+INFO    : verifying and expanding input directory: /home/ecb5/Dropbox/Courses/M111F/Syllabus/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/ecb5/Dropbox/Courses/M111F/Syllabus/generated-assets
+INFO    : verifying and expanding input directory: /home/ecb5/Dropbox/Courses/M111F/Syllabus/source/../assets
+INFO    : input directory expanded to absolute path: /home/ecb5/Dropbox/Courses/M111F/Syllabus/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.1.2
+INFO    : Runestone Services (using newer, via online CDN query): version 7.1.6
+INFO    : converting /home/ecb5/Dropbox/Courses/M111F/Syllabus/source/Math111F.ptx to HTML in /tmp/tmp5_hc3lx1
+INFO    : XSL conversion of /home/ecb5/Dropbox/Courses/M111F/Syllabus/source/Math111F.ptx by /home/ecb5/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/ecb5/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
