@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10",
   "title": "Videos",
-  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution              Slopes, Velocities, and Rates of Change    Galileo and Falling Objects    The Vomit Comet    The Airliner Problem, and Derivatives of Trig Functions    Fluxions and the Dot Notation    "
+  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution    Slopes, Velocities, and Rates of Change    Galileo and Falling Objects    The Vomit Comet    The Airliner Problem, and Derivatives of Trig Functions        Fluxions and the Dot Notation    "
 },
 {
   "id": "section-12",
@@ -2058,7 +2058,7 @@ var ptx_lunr_docs = [
   "url": "section-18.html",
   "type": "Section",
   "number": "11.7",
-  "title": "Newton's Method",
+  "title": "Newton’s Method",
   "body": " Newton's Method    Finding the Correct Root   The function has roots at  and . For each of the following use the initial guess , to find the indicated root.  Does it work? Why or why not.    Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:     Initial guess:   Root:      Finding A Single Root   Use Newton's Method to compute the root of each function to at least two decimals.                                   Finding Multiple Roots   Use Newton's Method to find all of the roots of each function and compute them to at least two decimals.                                             "
 },
 {
@@ -3597,7 +3597,7 @@ var ptx_lunr_docs = [
   "url": "section-26.html",
   "type": "Section",
   "number": "11.15",
-  "title": "L'Hopital's Rule",
+  "title": "L’Hopital’s Rule",
   "body": " L'Hopital's Rule      Use L'Hopital's Rule to compute each of the following limits:                                                                                                                                                    Polynomials and Exponentials       Show that each of the following is a true statement:         (Assume is a positive integer.)  Now suppose that any polynomial and find          Show that:     Show that:     Show that: Assume is a positive integer.    Show that: Assume and are positive integers.      Compute each of the following limits by any method.                                                                                                        "
 },
 {
@@ -4668,6 +4668,7 @@ var ptx_lunr_idx = lunr(function () {
   this.ref('id')
   this.field('title')
   this.field('body')
+  this.metadataWhitelist = ['position']
 
   ptx_lunr_docs.forEach(function (doc) {
     this.add(doc)
