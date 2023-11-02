@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Optimization</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="article">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.31/pretext_search.js"></script><link href="https://pretextbook.org/css/0.81/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.31</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.31/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.31/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.31/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.81/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext article ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Math111F.html"><span class="title">Math 111F, Fall 2023</span></a></h1>
+<p class="byline"></p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="subsection-15.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="PracticeProblems.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="subsection-17.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \def\abs#1{\left|#1\right|}
+\def\dx#1{\thinspace{\mathrm d}#1}
+\def\d#1{\thinspace{\mathrm d}#1}
+\def\dfdx#1#2{\frac{\dx{#1}}{\dx{#2}}} 
+\def\inverse#1{#1^{-1}}
+\def\limit#1#2#3{{\displaystyle\lim_{#1\rightarrow #2}#3}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Class_Meeting_Information.html" class="internal"><span class="codenumber">1</span> <span class="title">Class Information</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Meeting time, Office Hours, Books, etc.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Adjustments Due to  Illness</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-2.html" class="internal"><span class="codenumber">2</span> <span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-3.html" class="internal"><span class="codenumber">3</span> <span class="title">Class Participation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-4.html" class="internal"><span class="codenumber">4</span> <span class="title">WeBWorK</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-5.html" class="internal"><span class="codenumber">5</span> <span class="title">Exams and Quizzes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-3.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-4.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Quizzes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-6.html" class="internal"><span class="codenumber">6</span> <span class="title">Computing Technology</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-7.html" class="internal"><span class="codenumber">7</span> <span class="title">Grading Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Contacting_Me.html" class="internal"><span class="codenumber">8</span> <span class="title">Contacting Me</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-9.html" class="internal"><span class="codenumber">9</span> <span class="title">Semester Schedule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-10.html" class="internal"><span class="codenumber">10</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="PracticeProblems.html" class="internal"><span class="codenumber">11</span> <span class="title">Practice Problems</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-5.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Basic Differentiation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-5.html#exercises-1" class="internal"><span class="codenumber">11.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-6.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Making Things "Easier on the Eyes"</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-6.html#exercises-2" class="internal"><span class="codenumber">11.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-7.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Tangent Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-7.html#exercises-3" class="internal"><span class="codenumber">11.3</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-8.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Velocities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-8.html#exercises-4" class="internal"><span class="codenumber">11.4</span> <span class="title">Points Moving on a Graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-9.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Derivatives of Trig Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-9.html#exercises-5" class="internal"><span class="codenumber">11.5</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-10.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Derivatives of Inverse Trig Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-10.html#exercises-6" class="internal"><span class="codenumber">11.6</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-11.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Newton’s Method</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-11.html#exercises-7" class="internal"><span class="codenumber">11.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-12.html" class="internal"><span class="codenumber">11.8</span> <span class="title">Derivatives of Exponential and Logarithm Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-12.html#exercises-8" class="internal"><span class="codenumber">11.8</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-13.html" class="internal"><span class="codenumber">11.9</span> <span class="title">The First Derivative Test</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-13.html#exercises-9" class="internal"><span class="codenumber">11.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-14.html" class="internal"><span class="codenumber">11.10</span> <span class="title">Max/Min Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-14.html#exercises-10" class="internal"><span class="codenumber">11.10</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-15.html" class="internal"><span class="codenumber">11.11</span> <span class="title">Concavity</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-15.html#exercises-11" class="internal"><span class="codenumber">11.11</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection active">
+<div class="toc-title-box"><a href="subsection-16.html" class="internal"><span class="codenumber">11.12</span> <span class="title">Optimization</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-16.html#exercises-12" class="internal"><span class="codenumber">11.12</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-17.html" class="internal"><span class="codenumber">11.13</span> <span class="title">Optimization  (Experimental)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-17.html#exercises-13" class="internal"><span class="codenumber">11.13</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-18.html" class="internal"><span class="codenumber">11.14</span> <span class="title">Limits at Infinity</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-18.html#exercises-14" class="internal"><span class="codenumber">11.14</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-19.html" class="internal"><span class="codenumber">11.15</span> <span class="title">L’Hopital’s Rule</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-19.html#exercises-15" class="internal"><span class="codenumber">11.15</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-20.html" class="internal"><span class="codenumber">11.16</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-20.html#exercises-16" class="internal"><span class="codenumber">11.16</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-21.html" class="internal"><span class="codenumber">11.17</span> <span class="title">Integration by Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-21.html#exercises-17" class="internal"><span class="codenumber">11.17</span> <span class="title">Elementary Substitutions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsection-16"><h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">11.12</span><span class="space"> </span><span class="title">Optimization</span>
+</h2>
+<div class="para" id="p-1022"></div>
+<section class="exercises" id="exercises-12"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<div class="exercisegroup" id="exercisegroup-31">
+<h4 class="heading"><span class="title">Maximal Products.</span></h4>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-333"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="p-1023">Find two positive numbers whose sum is 10, and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-64" id="solution-64"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-64"><div class="solution solution-like"><div class="para" id="p-1024">The two numbers are both <span class="process-math">\(5\text{,}\)</span> so the maximum product is <span class="process-math">\(25\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-334"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-1025">Find two positive numbers whose sum is <span class="process-math">\(8\text{,}\)</span> and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-65" id="solution-65"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-65"><div class="solution solution-like"><div class="para" id="p-1026">The two numbers are both <span class="process-math">\(4\text{,}\)</span> so the maximum product is <span class="process-math">\(16\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-335"><h5 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 1.</span>
+</h5>
+<div class="para" id="p-1027">Find two positive numbers such that the sum of one of them and twice the other is 10, and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-66" id="solution-66"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-66"><div class="solution solution-like"><div class="para" id="p-1028">One of the  numbers is <span class="process-math">\(5\text{,}\)</span> and the other is <span class="process-math">\(\frac52\)</span> so the maximum product is <span class="process-math">\(\frac{25}{4}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-336"><h5 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 2.</span>
+</h5>
+<div class="para" id="p-1029">Find two positive numbers whose sum is <span class="process-math">\(K\text{,}\)</span> and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-67" id="solution-67"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-67"><div class="solution solution-like"><div class="para" id="p-1030">The two numbers are both <span class="process-math">\(\frac{K}{2}\text{,}\)</span> so the maximum product is <span class="process-math">\(\frac{K^2}{4}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-337"><h5 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 3.</span>
+</h5>
+<div class="para" id="p-1031">Find two positive numbers such that the sum of one of them and three times the other is 10, and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-68" id="solution-68"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-68"><div class="solution solution-like"><div class="para" id="p-1032">One of the  numbers is <span class="process-math">\(5\text{,}\)</span> and the other is <span class="process-math">\(\frac53\)</span> so the maximum product is <span class="process-math">\(\frac{25}{6}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-338"><h5 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 4.</span>
+</h5>
+<div class="para" id="p-1033">Find two positive numbers such that the sum of one of them and five times the other is 10, and whose product is a maximum. What is the maximum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-69" id="solution-69"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-69"><div class="solution solution-like"><div class="para" id="p-1034">One of the  numbers is <span class="process-math">\(5\text{,}\)</span> and the other is <span class="process-math">\(1\)</span> so the maximum product is <span class="process-math">\(5\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-339"><h5 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization.</span>
+</h5>
+<div class="para" id="p-1035">Find two positive numbers such that the sum of one of them and <span class="process-math">\(n\)</span> times the other is K, and whose product is a maximum. What is the maximum?</div>     </article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-32">
+<h4 class="heading"><span class="title">Minimal Sums.</span></h4>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-340"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-1036">Find two positive numbers whose product is <span class="process-math">\(10 \text{,}\)</span> vand whose sum is a minimum. What is the minimum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-70" id="solution-70"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-70"><div class="solution solution-like"><div class="para" id="p-1037">The two numbers are both <span class="process-math">\(\sqrt{10}\text{,}\)</span> so the minimum sum is <span class="process-math">\(\frac{2}{\sqrt{10}}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-341"><h5 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 1.</span>
+</h5>
+<div class="para" id="p-1038">Find two positive numbers whose product is <span class="process-math">\(M\text{,}\)</span> and whose sum is a minimum. What is the minimum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-71" id="solution-71"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-71"><div class="solution solution-like"><div class="para" id="p-1039">The two numbers are both <span class="process-math">\(\sqrt{M}\text{,}\)</span> so the minimum sum is <span class="process-math">\(\frac{2}{\sqrt{M}}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-342"><h5 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 2.</span>
+</h5>
+<div class="para" id="p-1040">Find two positive numbers whose product is <span class="process-math">\(M\text{,}\)</span> and  the sum one number and three times the other  is a minimum. What is the minimum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-72" id="solution-72"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-72"><div class="solution solution-like"><div class="para" id="p-1041">One  number is <span class="process-math">\(\sqrt{3M}\text{,}\)</span> and the other is <span class="process-math">\(\sqrt{\frac{M}{3}}\)</span> so the minimum sum is <span class="process-math">\(4\sqrt{\frac{M}{3}}\text{.}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-343"><h5 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 3.</span>
+</h5>
+<div class="para" id="p-1042">Find two positive numbers whose product is <span class="process-math">\(M\text{,}\)</span> and  the sum one number and <span class="process-math">\(n\)</span> times the other  is a minimum. What is the minimum?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-73" id="solution-73"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-73"><div class="solution solution-like"><div class="para" id="p-1043">Nope. Figure this one out for yourself. There is a pattern in the previous problems.</div></div></div>
+</div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-33">
+<h4 class="heading"><span class="title">Enclosures.</span></h4>
+<div class="introduction" id="introduction-56"><div class="para" id="p-1044">You have <span class="process-math">\(500\)</span> meters of fencing with which to build a pen.</div></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-344"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="p-1045">What is the largest area you can enclose with a freestanding rectangular pen?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-74" id="solution-74"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-74"><div class="solution solution-like"><div class="para" id="p-1046">
+<span class="process-math">\(250^2/4\)</span> square feet</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-345"><h5 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 1.</span>
+</h5>
+<div class="para" id="p-1047">You want to build a large rectangular pen divided into two equally sized sub-pens. What is the largest area you can enclose?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-75" id="solution-75"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-75"><div class="solution solution-like"><div class="para" id="p-1048">
+<span class="process-math">\((250^2/6\)</span> square feet</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-346"><h5 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 2.</span>
+</h5>
+<div class="para" id="p-1049">You want to build a large rectangular pen divided into three equally sized sub-pens. What is the largest area you can enclose?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-76" id="solution-76"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-76"><div class="solution solution-like"><div class="para" id="p-1050">
+<span class="process-math">\(\frac{250^2}{8}\)</span> square feet</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-347"><h5 class="heading">
+<span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 3.</span>
+</h5>
+<div class="para" id="p-1051">You want to build a large rectangular pen divided into <span class="process-math">\(n\)</span> equally sized sub-pens. What is the largest area you can enclose?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-77" id="solution-77"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-77"><div class="solution solution-like"><div class="para" id="p-1052">
+<span class="process-math">\(\frac{250^2}{2(n+1)}\)</span> square feet.</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-348"><h5 class="heading">
+<span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Generalization 4.</span>
+</h5>
+<div class="para" id="p-1053">You wish to build a pen using one side of a building in place of one side of your pen. What is the largest area you can enclose this time?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-78" id="solution-78"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-78"><div class="solution solution-like"><div class="para" id="p-1054">
+<span class="process-math">\(250^2/2\)</span> square feet</div></div></div>
+</div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-34">
+<h4 class="heading"><span class="title">Selected Problems.</span></h4>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-349"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="p-1055">A box with a square base and an open top must have a volume of <span class="process-math">\(32,000\)</span> cubic centimeters. Find the dimensions of the box that minimize the amount of material used.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-79" id="solution-79"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-79"><div class="solution solution-like"><div class="para" id="p-1056">
+<span class="process-math">\(320,000\)</span> cubic centimeters</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-350"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-1057">A Norman window has the shape of a rectangle surmounted by a semicircle. If the perimeter of the window is <span class="process-math">\(30\)</span> feet, find the dimensions of the window that allow the most light to enter.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-80" id="solution-80"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-80"><div class="solution solution-like">
+<div class="para logical" id="p-1058"><div class="displaymath process-math" id="md-56">
+\begin{align*}
+x\amp =\frac{60}{4+3\pi}\\
+y\amp =15\left(\frac{1+\pi}{4+3\pi}\right)
+\end{align*}
+</div></div> <aside class="aside aside-like" id="aside-5"><h6 class="heading"><span class="title">Oops!</span></h6>
+<div class="para" id="p-1059">I am not confident of this answer. Please let me know if you think it is wrong.</div></aside>
+</div></div>
+</div></article><article class="exercise exercise-like" id="exercise-351"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-1060">At which points on the curve <span class="process-math">\(y=\frac{5}{10+x^2}\)</span> does the tangent line have the greatest slope?</div></article><article class="exercise exercise-like" id="exercise-352"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-1061">Find the area of the smallest triangle formed by the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> axes and a line passing through the point <span class="process-math">\((2,1).\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-81" id="solution-81"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-81"><div class="solution solution-like"><div class="para" id="p-1062"></div></div></div>
+</div></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-353"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-57"><div class="para" id="p-1063">Find the coordinates of the points on the graph of <span class="process-math">\(4x^2+y^2=4\)</span> which are</div></div>
+<article class="task exercise-like" id="task-121"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-1064">farthest from the point <span class="process-math">\((1,0)\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-82" id="solution-82"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-82"><div class="solution solution-like"><div class="para" id="p-1065">
+<span class="process-math">\(\left(-\frac13, \frac{4\sqrt{2}}{3}\right)\)</span> and <span class="process-math">\(\left(-\frac13, -\frac{4\sqrt{2}}{3}\right)\)</span>
+</div></div></div>
+</div></article><article class="task exercise-like" id="task-122"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-1066">farthest from the point <span class="process-math">\((0,2)\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-83" id="solution-83"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-83"><div class="solution solution-like"><div class="para" id="p-1067"><span class="process-math">\(\left(0,-2\right)\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-123"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-1068">farthest from the point <span class="process-math">\((2,2)\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-4" id="hint-4"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-4"><div class="hint solution-like"><div class="para" id="p-1069">You probably won’t be able to get an exact answer. Find an approximation.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-84" id="solution-84"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-84"><div class="solution solution-like"><div class="para" id="p-1070">The coordinates are approximately, <span class="process-math">\(\left(-0.81, -1.17\right)\)</span>
+</div></div></div>
+</div></article><article class="task exercise-like" id="task-124"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="p-1071">closest to the point <span class="process-math">\((2,2)\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-5" id="hint-5"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-5"><div class="hint solution-like"><div class="para" id="p-1072">You probably won’t be able to get an exact answer. Find an approximation.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-85" id="solution-85"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-85"><div class="solution solution-like"><div class="para" id="p-1073">The coordinates are approximately, <span class="process-math">\(\left(.66, 1.5\right)\)</span>
+</div></div></div>
+</div></article></article><article class="exercise exercise-like" id="exercise-354"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
+<div class="para" id="p-1074">Find the area of the largest triangle you can form with one vertex at <span class="process-math">\((0,0)\text{,}\)</span> one vertex at <span class="process-math">\((x,0)\)</span> and the third vertex at <span class="process-math">\(\left(x,\frac{1}{1+x^2}\right)\text{.}\)</span>
+</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsection-15.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="subsection-17.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

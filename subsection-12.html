@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Derivatives of Exponential and Logarithm Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="article">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.31/pretext_search.js"></script><link href="https://pretextbook.org/css/0.81/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.31</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.31/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.31/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.31/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.81/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.81/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext article ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Math111F.html"><span class="title">Math 111F, Fall 2023</span></a></h1>
+<p class="byline"></p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="subsection-11.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="PracticeProblems.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="subsection-13.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \def\abs#1{\left|#1\right|}
+\def\dx#1{\thinspace{\mathrm d}#1}
+\def\d#1{\thinspace{\mathrm d}#1}
+\def\dfdx#1#2{\frac{\dx{#1}}{\dx{#2}}} 
+\def\inverse#1{#1^{-1}}
+\def\limit#1#2#3{{\displaystyle\lim_{#1\rightarrow #2}#3}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="Class_Meeting_Information.html" class="internal"><span class="codenumber">1</span> <span class="title">Class Information</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Meeting time, Office Hours, Books, etc.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Adjustments Due to  Illness</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-2.html" class="internal"><span class="codenumber">2</span> <span class="title">How to Succeed in this Course</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-3.html" class="internal"><span class="codenumber">3</span> <span class="title">Class Participation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-4.html" class="internal"><span class="codenumber">4</span> <span class="title">WeBWorK</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-5.html" class="internal"><span class="codenumber">5</span> <span class="title">Exams and Quizzes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-3.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-4.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Quizzes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-6.html" class="internal"><span class="codenumber">6</span> <span class="title">Computing Technology</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-7.html" class="internal"><span class="codenumber">7</span> <span class="title">Grading Policies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Contacting_Me.html" class="internal"><span class="codenumber">8</span> <span class="title">Contacting Me</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-9.html" class="internal"><span class="codenumber">9</span> <span class="title">Semester Schedule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-10.html" class="internal"><span class="codenumber">10</span> <span class="title">Videos</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="PracticeProblems.html" class="internal"><span class="codenumber">11</span> <span class="title">Practice Problems</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-5.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Basic Differentiation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-5.html#exercises-1" class="internal"><span class="codenumber">11.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-6.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Making Things "Easier on the Eyes"</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-6.html#exercises-2" class="internal"><span class="codenumber">11.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-7.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Tangent Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-7.html#exercises-3" class="internal"><span class="codenumber">11.3</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-8.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Velocities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-8.html#exercises-4" class="internal"><span class="codenumber">11.4</span> <span class="title">Points Moving on a Graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-9.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Derivatives of Trig Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-9.html#exercises-5" class="internal"><span class="codenumber">11.5</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-10.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Derivatives of Inverse Trig Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-10.html#exercises-6" class="internal"><span class="codenumber">11.6</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-11.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Newton’s Method</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-11.html#exercises-7" class="internal"><span class="codenumber">11.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection active">
+<div class="toc-title-box"><a href="subsection-12.html" class="internal"><span class="codenumber">11.8</span> <span class="title">Derivatives of Exponential and Logarithm Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-12.html#exercises-8" class="internal"><span class="codenumber">11.8</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-13.html" class="internal"><span class="codenumber">11.9</span> <span class="title">The First Derivative Test</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-13.html#exercises-9" class="internal"><span class="codenumber">11.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-14.html" class="internal"><span class="codenumber">11.10</span> <span class="title">Max/Min Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-14.html#exercises-10" class="internal"><span class="codenumber">11.10</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-15.html" class="internal"><span class="codenumber">11.11</span> <span class="title">Concavity</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-15.html#exercises-11" class="internal"><span class="codenumber">11.11</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-16.html" class="internal"><span class="codenumber">11.12</span> <span class="title">Optimization</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-16.html#exercises-12" class="internal"><span class="codenumber">11.12</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-17.html" class="internal"><span class="codenumber">11.13</span> <span class="title">Optimization  (Experimental)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-17.html#exercises-13" class="internal"><span class="codenumber">11.13</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-18.html" class="internal"><span class="codenumber">11.14</span> <span class="title">Limits at Infinity</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-18.html#exercises-14" class="internal"><span class="codenumber">11.14</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-19.html" class="internal"><span class="codenumber">11.15</span> <span class="title">L’Hopital’s Rule</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-19.html#exercises-15" class="internal"><span class="codenumber">11.15</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-20.html" class="internal"><span class="codenumber">11.16</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-20.html#exercises-16" class="internal"><span class="codenumber">11.16</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsection-21.html" class="internal"><span class="codenumber">11.17</span> <span class="title">Integration by Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="subsection-21.html#exercises-17" class="internal"><span class="codenumber">11.17</span> <span class="title">Elementary Substitutions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsection-12"><h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">11.8</span><span class="space"> </span><span class="title">Derivatives of Exponential and Logarithm Functions</span>
+</h2>
+<div class="para" id="p-760"></div>
+<section class="exercises" id="exercises-8"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title"></span>
+</h3>
+<div class="exercisegroup" id="exercisegroup-21">
+<h4 class="heading"><span class="title">Drills:.</span></h4>
+<div class="introduction" id="introduction-41"><div class="para" id="p-761">For each of the following find <span class="process-math">\(\dx{y}\text{:}\)</span>
+</div></div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-228"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="p-762"><span class="process-math">\(y=e^x\sin(x)\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-149" id="answer-149"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-149"><div class="answer solution-like"><div class="para" id="p-763"><span class="process-math">\(\dx{y}= e^x(\sin(x)+\cos(x))\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-229"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-764"><span class="process-math">\(y= \dfrac{x}{e^x}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-150" id="answer-150"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-150"><div class="answer solution-like"><div class="para" id="p-765"><span class="process-math">\(\dx{y}=\frac{1+x}{e^x}\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-230"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="p-766"><span class="process-math">\(y= \dfrac{e^x}{4x^2+3x-5}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-151" id="answer-151"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-151"><div class="answer solution-like"><div class="para" id="p-767"> <span class="process-math">\(\displaystyle \dx{y} = \dfrac{e^x(4x^2-5x-8)}{(4x^2+3x-5)^2}\)</span>
+</div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-231"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="p-768"><span class="process-math">\(\displaystyle y=e^{\sin(x)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-152" id="answer-152"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-152"><div class="answer solution-like"><div class="para" id="p-769"><span class="process-math">\(\dx{y} = e^{\sin(x)}\cos(x)\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-232"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="p-770"><span class="process-math">\(\displaystyle y=\sin(e^x)\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-153" id="answer-153"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-153"><div class="answer solution-like"><div class="para" id="p-771"><span class="process-math">\(\dx{y} = e^x\cos(e^x)\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-233"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="p-772"><span class="process-math">\(\displaystyle y=\cos(e^x)\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-154" id="answer-154"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-154"><div class="answer solution-like"><div class="para" id="p-773"><span class="process-math">\(\dx{y} = -e^x\sin(e^x)\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-234"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="p-774"><span class="process-math">\(\displaystyle y=\frac{e^x}{\ln(x)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-155" id="answer-155"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-155"><div class="answer solution-like"><div class="para" id="p-775"><span class="process-math">\(\displaystyle\dx{y} = \frac{e^x(x\ln(x)-1)}{x(\ln(x))^2}\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-235"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-776"><span class="process-math">\(\displaystyle y=\frac{\sin(2x)}{\ln(5x)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-156" id="answer-156"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-156"><div class="answer solution-like"><div class="para" id="p-777"><span class="process-math">\(\displaystyle\dx{y} = \frac{2x\ln(5x)\cos(2x)-\sin(2x)}{x(\ln(5x))^2}\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-236"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-778"><span class="process-math">\(\displaystyle y=e^{(x^2)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-157" id="answer-157"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-157"><div class="answer solution-like"><div class="para" id="p-779"><span class="process-math">\(\displaystyle\dx{y} = 2xe^{x^2}\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-237"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-780"><span class="process-math">\(\displaystyle y=(e^x)^2\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-158" id="answer-158"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-158"><div class="answer solution-like"><div class="para" id="p-781"><span class="process-math">\(\displaystyle\dx{y} = 2(e^x)^2\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-238"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="p-782"><span class="process-math">\(\displaystyle y=(\ln(x))^2\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-159" id="answer-159"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-159"><div class="answer solution-like"><div class="para" id="p-783"><span class="process-math">\(\displaystyle\dx{y} = 2\frac{\ln(x)}{x}\dx{x}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-239"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="p-784"><span class="process-math">\(\displaystyle y=\ln(x^2)\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-160" id="answer-160"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-160"><div class="answer solution-like"><div class="para" id="p-785"><span class="process-math">\(\displaystyle\dx{y} = \frac{2}{x}\dx{x}\)</span></div></div></div>
+</div></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-240"><h4 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Find The Pattern.</span>
+</h4>
+<div class="introduction" id="introduction-42"><div class="para" id="p-786">Find, and state, the pattern in the differentials in the next few problems.</div></div>
+<article class="task exercise-like" id="task-95"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-787"><span class="process-math">\(y = xe^x\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-161" id="answer-161"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-161"><div class="answer solution-like"><div class="para" id="p-788"><span class="process-math">\(\dx{y}=e^x(x+1)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-96"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-789"><span class="process-math">\(y = x^2e^x\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-162" id="answer-162"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-162"><div class="answer solution-like"><div class="para" id="p-790"><span class="process-math">\(\dx{y}=e^x(x^2+2x)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-97"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-791"><span class="process-math">\(y = x^3e^x\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-163" id="answer-163"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-163"><div class="answer solution-like"><div class="para" id="p-792"><span class="process-math">\(\dx{y}=e^x(x^3+3x^2)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-98"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="p-793"><span class="process-math">\(y = x^4e^x\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-164" id="answer-164"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-164"><div class="answer solution-like"><div class="para" id="p-794"><span class="process-math">\(\dx{y}=e^x(x^4+4x^3)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-99"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="p-795">
+<span class="process-math">\(y = x^ne^x\)</span> where <span class="process-math">\(n\)</span> is any positive integer.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-165" id="answer-165"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-165"><div class="answer solution-like"><div class="para" id="p-796"><span class="process-math">\(\dx{y}=e^x(x^n+nx^{n-1})\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-100"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="p-797">
+<span class="process-math">\(y = x^ne^x\)</span> where <span class="process-math">\(n\)</span> is any negative integer.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-166" id="answer-166"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-166"><div class="answer solution-like">
+<div class="para" id="p-798">No.  Find this one on your own.</div> <div class="para" id="p-799">Be sure to  verify that your answer is correct.</div>
+</div></div>
+</div></article></article><article class="exercise exercise-like" id="exercise-241"><h4 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Find The Pattern.</span>
+</h4>
+<div class="introduction" id="introduction-43"><div class="para" id="p-800">Find, and state, the pattern for the differentials.</div></div>
+<article class="task exercise-like" id="task-101"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-801"><span class="process-math">\(y = xe^{-x}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-167" id="answer-167"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-167"><div class="answer solution-like"><div class="para" id="p-802"><span class="process-math">\(\dx{y}=-e^{-x}(x-1)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-102"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-803"><span class="process-math">\(y = x^2e^{-x}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-168" id="answer-168"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-168"><div class="answer solution-like"><div class="para" id="p-804"><span class="process-math">\(\dx{y}=-e^{-x}(x^2-2x)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-103"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-805"><span class="process-math">\(y = x^3e^{-x}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-169" id="answer-169"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-169"><div class="answer solution-like"><div class="para" id="p-806"><span class="process-math">\(\dx{y}=-e^{-x}(x^3-3x^2)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-104"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="p-807"><span class="process-math">\(y = x^4e^{-x}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-170" id="answer-170"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-170"><div class="answer solution-like"><div class="para" id="p-808"><span class="process-math">\(\dx{y}=-e^{-x}(x^4-4x^3)\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-105"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="p-809">
+<span class="process-math">\(y = x^ne^{-x}\)</span> where <span class="process-math">\(n\)</span> is any positive integer.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-171" id="answer-171"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-171"><div class="answer solution-like"><div class="para" id="p-810"><span class="process-math">\(\dx{y}=-e^{-x}(x^n-nx^{n-1})\dx{x}\)</span></div></div></div>
+</div></article><article class="task exercise-like" id="task-106"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="p-811">
+<span class="process-math">\(y = x^ne^{-x}\)</span> where <span class="process-math">\(n\)</span> is any negative integer.</div></article></article><article class="exercise exercise-like" id="exercise-242"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-44"><div class="para" id="p-812">Show that <span class="process-math">\(\dfdx{y}{x}\)</span> is the same for all of the following.</div></div>
+<article class="task exercise-like" id="task-107"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-813"><span class="process-math">\(y=\ln(2x)\)</span></div></article><article class="task exercise-like" id="task-108"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-814"><span class="process-math">\(y=\ln(3x)\)</span></div></article><article class="task exercise-like" id="task-109"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-815"><span class="process-math">\(y=\ln(4x)\)</span></div></article><article class="task exercise-like" id="task-110"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="p-816"><span class="process-math">\(y=\ln(nx)\)</span></div></article></article><article class="exercise exercise-like" id="exercise-243"><h4 class="heading">
+<span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Find the Pattern.</span>
+</h4>
+<div class="introduction" id="introduction-45"><div class="para" id="p-817">Find  <span class="process-math">\(\dfdx{y}{x}\)</span> for each of the following:</div></div>
+<article class="task exercise-like" id="task-111"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-818"><span class="process-math">\(y=\ln(x^2)\)</span></div></article><article class="task exercise-like" id="task-112"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-819"><span class="process-math">\(y=\ln(x^3)\)</span></div></article><article class="task exercise-like" id="task-113"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-820"><span class="process-math">\(y=\ln(x^4)\)</span></div></article><article class="task exercise-like" id="task-114"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="p-821"><span class="process-math">\(y=\ln(x^n)\)</span></div></article></article><div class="exercisegroup" id="exercisegroup-22">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-46"><div class="para" id="p-822">Compute the derivative of each of the following.</div></div>
+<div class="exercisegroup-exercises cols3">
+<article class="exercise exercise-like" id="exercise-244"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="p-823"><span class="process-math">\(y=\ln(3x)+x\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-10" id="solution-10"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-10"><div class="solution solution-like"><div class="para" id="p-824"><span class="process-math">\(\dfdx{y}{x} = \dfrac1x +1\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-245"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-825"><span class="process-math">\(y=\frac{1}{\ln(3x)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-11" id="solution-11"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-11"><div class="solution solution-like"><div class="para" id="p-826"><span class="process-math">\(\dfdx{y}{x} = \dfrac{-1}{x[\ln(3x)]^2}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-246"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-827"><span class="process-math">\(y=\frac{1}{\ln(\ln(\ln(x)))}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-12" id="solution-12"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-12"><div class="solution solution-like"><div class="para" id="p-828"><span class="process-math">\(\dfdx{y}{x} = \dfrac{1}{\ln(\ln(x))}\cdot\dfrac{1}{\ln(x)}\cdot\dfrac1x\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-247"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-829"><span class="process-math">\(y=\sqrt{\ln\left(\sqrt{x}\right)}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-13" id="solution-13"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-13"><div class="solution solution-like"><div class="para" id="p-830"><span class="process-math">\(\dfdx{y}{x} = \dfrac{1}{2\sqrt{2}x\ln(\sqrt{x})}\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-248"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="p-831"><span class="process-math">\(y=\ln(\sec(x))\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-14" id="solution-14"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-14"><div class="solution solution-like"><div class="para" id="p-832"><span class="process-math">\(\dfdx{y}{x} = \tan(x)\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-249"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="p-833"><span class="process-math">\(y=\ln(\sec(x)+\tan(x))\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-15" id="solution-15"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-15"><div class="solution solution-like"><div class="para" id="p-834"><span class="process-math">\(\dfdx{y}{x} = \sec(x)\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-250"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<div class="para" id="p-835"><span class="process-math">\(y= x\inverse\sec(x) - \ln(x+\sqrt{x^2-1}\)</span></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-172" id="answer-172"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-172"><div class="answer solution-like"><div class="para" id="p-836"><span class="process-math">\(\displaystyle\dfdx{y}{x}=\inverse\sec(x)\)</span></div></div></div></article><article class="exercise exercise-like" id="exercise-251"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-837"><span class="process-math">\(y= x\inverse\tan\left(\frac{x}{2}\right)-\ln\left(x^2+4\right)\)</span></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-173" id="answer-173"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-173"><div class="answer solution-like"><div class="para" id="p-838"><span class="process-math">\(\displaystyle\dfdx{y}{x}=\inverse\tan(x)\)</span></div></div></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-23">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-47"><div class="para" id="p-839">Compute the derivative of each of the following pairs of functions.</div></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-252"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para logical" id="p-840"><div class="displaymath process-math" id="md-35">
+\begin{alignat*}{1}
+y=\amp\left[x(x+1)\right]^7\\
+z=\amp\ln{\left[x(x+1)\right]^7}
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-16" id="solution-16"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-16"><div class="solution solution-like"><div class="para logical" id="p-841"><div class="displaymath process-math" id="md-36">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp
+\left[x(x+1)\right]^7\left[\dfrac7x+\dfrac{7}{x+1}\right]\\
+\dfdx{z}{x} =\amp \dfrac7x+\dfrac{7}{x+1}
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-253"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para logical" id="p-842"><div class="displaymath process-math" id="md-37">
+\begin{alignat*}{1}
+y=\amp\sqrt{x(x+1)}\\
+z=\amp\ln\left(\sqrt{x(x+1)}\right)
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-17" id="solution-17"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-17"><div class="solution solution-like"><div class="para logical" id="p-843"><div class="displaymath process-math" id="md-38">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp  \left[\sqrt{x(x+1)}\right]\left[\dfrac{1}{2x}+\dfrac{1}{2(x+1)}\right]\\
+\dfdx{z}{x} =\amp \dfrac{1}{2x}+\dfrac{1}{2(x+1)} 
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-254"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para logical" id="p-844"><div class="displaymath process-math" id="md-39">
+\begin{alignat*}{1}
+y=\amp x(x-1)(x-2)\\
+z=\amp \ln\left(x(x-1)(x-2)\right)
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-18" id="solution-18"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-18"><div class="solution solution-like"><div class="para logical" id="p-845"><div class="displaymath process-math" id="md-40">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp 
+\left[x(x-1)(x-2)\right]\left[\dfrac1x+\dfrac{1}{x-1}+\dfrac{1}{x-2}\right]\\
+\dfdx{z}{x} =\amp
+\left(\dfrac1x+\dfrac{1}{x-1}+\dfrac{1}{x-2}\right)
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-255"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para logical" id="p-846"><div class="displaymath process-math" id="md-41">
+\begin{alignat*}{1}
+y=\amp \frac{1}{x(x-1)(x-2)}\\
+z=\amp \ln\left(\frac{1}{x(x-1)(x-2)}\right)
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-19" id="solution-19"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-19"><div class="solution solution-like"><div class="para logical" id="p-847"><div class="displaymath process-math" id="md-42">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp 
+-\left[\frac{1}{x(x-1)(x-2)}\right]\left[\dfrac1x+\dfrac{1}{x-1}+\dfrac{1}{x-2}\right]\\
+\dfdx{z}{x} =\amp 
+-\left(\dfrac1x+\dfrac{1}{x-1}+\dfrac{1}{x-2}\right)
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-256"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para logical" id="p-848"><div class="displaymath process-math" id="md-43">
+\begin{alignat*}{1}
+y=\amp \ln\left({\frac{x\sqrt{x^2+1}}{(x+1)^{2/3}}}\right)\\
+z=\amp \frac{x\sqrt{x^2+1}}{(x+1)^{2/3}}
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-20" id="solution-20"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-20"><div class="solution solution-like"><div class="para logical" id="p-849"><div class="displaymath process-math" id="md-44">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp  \dfrac1x+\dfrac{x}{x^2+1}-\dfrac{2}{3(x+1)}\\
+\dfdx{z}{x} =\amp \left[\frac{x\sqrt{x^2+1}}{(x+1)^{2/3}}\right]\left[\dfrac1x+\dfrac{x}{x^2+1}-\dfrac{2}{3(x+1)}\right]
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-257"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para logical" id="p-850"><div class="displaymath process-math" id="md-45">
+\begin{alignat*}{1}
+y=\amp \ln\left(\sqrt[3]{\frac{x(x+1)(x-2)}{(x^2+1)(2x+3)}}\right)\\
+z=\amp \sqrt[3]{\frac{x(x+1)(x-2)}{(x^2+1)(2x+3)}}
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-21" id="solution-21"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-21"><div class="solution solution-like"><div class="para logical" id="p-851"><div class="displaymath process-math" id="md-46">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp
+\dfrac13\left(\dfrac1x+\dfrac{1}{x+1}+\dfrac{1}{x-2} -
+\dfrac{x}{x^2-1}-\dfrac{2}{2x+3}\right)\\
+\dfdx{z}{x} =\amp
+\dfrac13\left(\sqrt[3]{\frac{x(x+1)(x-2)}{(x^2+1)(2x+3)}}\right)\left(\dfrac1x+\dfrac{1}{x+1}+\dfrac{1}{x-2}
+-
+\dfrac{x}{x^2-1}-\dfrac{2}{2x+3}\right)
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-258"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
+<div class="para logical" id="p-852"><div class="displaymath process-math" id="md-47">
+\begin{alignat*}{1}
+y=\amp e^{2x}\\
+z=\amp 2^x
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-22" id="solution-22"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-22"><div class="solution solution-like"><div class="para logical" id="p-853"><div class="displaymath process-math" id="md-48">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp 2e^{2x}\\
+\dfdx{z}{x} =\amp \left[\ln(2)\right]\cdot 2^x
+\end{alignat*}
+</div></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-259"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para logical" id="p-854"><div class="displaymath process-math" id="md-49">
+\begin{alignat*}{1}
+y=\amp \frac{\ln(x)}{2}\\
+y=\amp \log_2(x)
+\end{alignat*}
+</div></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-23" id="solution-23"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-23"><div class="solution solution-like"><div class="para logical" id="p-855"><div class="displaymath process-math" id="md-50">
+\begin{alignat*}{1}
+\dfdx{y}{x} =\amp \dfrac{1}{2x}\\
+\dfdx{z}{x} =\amp \dfrac{1}{x\ln(2)}
+\end{alignat*}
+</div></div></div></div>
+</div></article>
+</div>
+</div>
+<figure class="figure figure-like" id="figure-5"><iframe src="https://www.desmos.com/calculator/vwkddsnyny" id="interactive-5" width="900" height="450"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">11.8.1<span class="period">.</span></span><span class="space"> </span>You can use this Desmos interface to check your answers.</figcaption></figure><div class="exercisegroup" id="exercisegroup-24">
+<h4 class="heading"><span class="title">Tangent Lines.</span></h4>
+<div class="introduction" id="introduction-48">
+<div class="para" id="p-856">Find an equation of the line tangent to each function below at the given point. If no such line exists explain why not.</div> <div class="para" id="p-857">Check your answers by graphing the function and your tangent line on the same set of axes. You can use the Desmos interface above, open Desmos in another window, use your calculator, or any other graphing software to do this. If the line you found isn’t tangent to the graph then you made a mistake. Try again or ask for help.</div>
+</div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-260"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="p-858">
+<span class="process-math">\(y= \dfrac{x}{e^x}\text{,}\)</span> <span class="process-math">\((0,0)\)</span>
+</div>   </article><article class="exercise exercise-like" id="exercise-261"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="p-859">
+<span class="process-math">\(y= \dfrac{x}{e^x}\text{,}\)</span> <span class="process-math">\(\left(1,1/e\right)\)</span>
+</div>   </article><article class="exercise exercise-like" id="exercise-262"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para" id="p-860">
+<span class="process-math">\(y= \dfrac{e^x}{4x^2+3x-5}\text{,}\)</span> <span class="process-math">\(\left(0,\dfrac{-1}{5}\right)\)</span>
+</div>   </article><article class="exercise exercise-like" id="exercise-263"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-861">
+<span class="process-math">\(y= \dfrac{e^x}{4x^2+3x-5}\text{,}\)</span> <span class="process-math">\((1,e/2)\)</span>
+</div></article>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsection-11.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="subsection-13.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
