@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10",
   "title": "Videos",
-  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution    Slopes, Velocities, and Rates of Change    Galileo and Falling Objects    The Vomit Comet     The Airliner Problem, and Derivatives of Trig Functions        Fluxions and the Dot Notation    Exponential Function 1    Exponential Function 2    Exponential Growth 1    Exponential Growth 2    Exponential Growth 3    Logarithmic Differentiation    Two Simple Optimizations    Optimization, the Abstract Problem    The First Derivative Test    An Optimization Example    Deriving Snell's Law    Evaluating Some Simple Limits    L'Hopital's Rule    Basic Integration    Inefinite Integrals    Definite Integrals    "
+  "body": "Videos    Method of Adequality    Speed vs. Velocity    Substitution    Slopes, Velocities, and Rates of Change    Galileo and Falling Objects    The Vomit Comet     The Airliner Problem, and Derivatives of Trig Functions        Fluxions and the Dot Notation    Exponential Function 1    Exponential Function 2    Exponential Growth 1    Exponential Growth 2    Exponential Growth 3    Logarithmic Differentiation    Two Simple Optimizations    Optimization, the Abstract Problem    The First Derivative Test    An Optimization Example    Deriving Snell's Law    Evaluating Some Simple Limits    L'Hopital's Rule    Basic Integration    Inefinite Integrals    Definite Integrals    The FTC and Integration by Substitution    "
 },
 {
   "id": "PracticeProblems-2",
